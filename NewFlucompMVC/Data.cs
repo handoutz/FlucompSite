@@ -28,7 +28,7 @@ public static class Data
 
 	public static Dictionary<string, ReplacementDelegate> Replacements = new Dictionary<string, ReplacementDelegate>()
 																			 {
-																				 {"{appversion}", () => "v0.1.9-alpha"}
+																				 {"{appversion}", () => "v0.2.0-Beta"}
 																			 };
 	public static string ReplaceThings(string input)
 	{
