@@ -12,7 +12,7 @@ String.prototype.trim = function () {
 	return this.replace(/^\s+|\s+$/g, "");
 };
 $(function () {
-	$(".scriptEnabled").show();
+	/*$(".scriptEnabled").show();
 	$(".navTab").click(function (event) {
 		//$(".selected").removeClass('selected').css('background-color', 'transparent').addClass("notSelected");
 		//$(this).removeClass('notSelected').addClass('selected').css('background-color', '#f5f5f5');
@@ -36,7 +36,7 @@ $(function () {
 			console.log([a, b]);
 			loadingProduct = false;
 		}
-	});
+	});*/
 });
 var curTab = null;
 function loadTab(href) {

@@ -24,3 +24,4 @@ C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC
 C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\bin\System.Web.WebPages.Razor.xml
 C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\obj\Debug\NewFlucompMVC.dll
 C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\obj\Debug\NewFlucompMVC.pdb
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\obj\Debug\Flucomp.Site.csprojResolveAssemblyReference.cache

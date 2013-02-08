@@ -158,6 +158,7 @@
     <Content Include="Include\css\style.css" />
     <Content Include="Include\img\arrow.png" />
     <Content Include="Include\img\button_bg.png" />
+    <Content Include="Include\img\convertLogo.png" />
     <Content Include="Include\img\fabric2.png" />
     <Content Include="Include\img\fabric.png" />
     <Content Include="Include\img\fc_new_logo.png" />
@@ -170,6 +171,7 @@
     <Content Include="Include\img\logo.png" />
     <Content Include="Include\img\logo_old.png" />
     <Content Include="Include\img\pic\diana.jpg" />
+    <Content Include="Include\img\pic\vince_new.png" />
     <Content Include="Include\img\pic\vince.jpg" />
     <Content Include="Include\img\rust.png" />
     <Content Include="Include\img\stripe_body.png" />
