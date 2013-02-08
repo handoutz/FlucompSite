@@ -9,7 +9,7 @@ body {
     text-align: left;
     font-size: 1.05em;
     letter-spacing: 0;
-    background: #03426a url(../img/fabric2.png) repeat;
+    background: black url(../img/fabric2.png) repeat;
 }
 
 .wrapper {
@@ -41,10 +41,12 @@ a {
 
     #header #headerInner {
         padding: 1.25em;
+        padding-bottom: 0.75em;
     }
 
         #header #headerInner * {
             display: inline-block;
+            vertical-align:top;
         }
 
     #header #border {
@@ -84,13 +86,113 @@ a {
     padding: 1em;
 }
 
+.product {
+    width: 18em;
+    display: inline-block;
+}
+
+    .product img {
+        width: 18em;
+    }
+
+    .product .title {
+        margin: 0 auto;
+        font-size: 1.1em;
+    }
+
+    .product .desc {
+    }
+
+#portfolio {
+}
+
+    #portfolio td, #services td {
+        padding: 0.25em;
+        vertical-align: top;
+    }
+
+#services {
+}
+
+    #services ol li {
+        
+    }
+
+    #services ul li {
+        list-style-type: none;
+    }
+
 #footer {
     position: absolute;
     bottom: 0;
-    background:black;
-    width:100%;
+    background: black url(../img/rust.png) repeat;
+    width: 100%;
     color: #aaa;
     font-size: 0.8em;
     padding-top: 1em;
-    text-align:right;
+    padding-bottom: 0.25em;
+    text-align: right;
 }
+
+#breadcrumb {
+    margin-bottom: 1.5em;
+}
+
+.aboutPerson {
+    margin-bottom: 1.75em;
+}
+
+    .aboutPerson img.profile {
+        width: 128px;
+        height: 128px;
+    }
+
+    .aboutPerson .staff_email {
+        font-size: 0.95em;
+    }
+
+    .aboutPerson .profilepicWrap {
+        margin: 0.25em;
+        padding: 0.25em;
+        width: 128px;
+        height: 128px;
+        border: solid 1px #7a5c37;
+        -moz-box-shadow: 0 0 5px rgba(50,50,50,0.5);
+        -webkit-box-shadow: 0 0 5px rgba(50,50,50,0.5);
+        box-shadow: 0 0 5px rgba(50,50,50,0.5);
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .aboutPerson table.personTable {
+    }
+
+        .aboutPerson table.personTable td {
+            vertical-align: top;
+            padding: 0.1em;
+            margin: 0;
+        }
+
+        .aboutPerson table.personTable .identity {
+            font-weight: bold;
+            font-size: 1.25em;
+        }
+
+        .aboutPerson table.personTable .position {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 0.825em;
+        }
+
+        .aboutPerson table.personTable .socialSpan {
+            margin: 0.25em 0;
+        }
+
+        .aboutPerson table.personTable .bio {
+            /*font-size: 0.95em;*/
+        }
+
+        .aboutPerson table.personTable .title {
+            font-size: 0.95em;
+        }

@@ -1,60 +1,21 @@
 ﻿@model NewFlucompMVC.Models.ProductModel
 @{
-	ViewBag.Title = "Products";
-	Layout = ViewBag.GetLayout();
-	ViewBag.ShowSidebar = true;
+    ViewBag.Title = "Products";
+    Layout = ViewBag.GetLayout();
+    ViewBag.ShowSidebar = true;
 }
 @{
-	Html.RenderPartial("PageTitle");
+    Html.RenderPartial("PageTitle");
 }
-<div id="products" class="contentInner">
-	<table>
-		<tr>
-			<td id="sidebar">
-				@{
-					int count = 0;
-					foreach (var prod in Model.Products)
-					{
-						string classes = "product " + ((prod == Model.Current) ? "selectedProduct" : "");
-						if (Model.Products.Count == 1)
-						{
-							classes += " top";
-						}
-						else
-						{
-							classes += ((count == 0) ? " top" : "");
-							classes += ((count == Model.Products.Count - 1) ? " bot" : "");
-						}
-						string url = Url.Action("ProductInfo", new { id = count });
-					<div class="@classes" data-id="@count" data-href="@url">
-						<div style="float: left; height: 100%">
-							<a href="@url">@prod.Name</a>
-						</div>
-						<div style="float: right; height: 100%">
-							<img src="@Url.Content("~/Include/img/arrow.png")" alt=">" class="arrow"/>
-						</div>
-						<div class="clear">
-						</div>
-					</div>
-						if (count++ < Model.Products.Count - 1)
-						{
-					<div class="divider">
-					</div>
-						}
-					}
-				}
-			</td>
-			<td class='content'>
-				<div id="contentContainer">
-					@{Html.RenderPartial("ProductInfo", Model.Current);}
-				</div>
-			</td>
-		</tr>
-	</table>
-</div>
-<script type="text/javascript">
-	initProductList();
-	$(function () {
-
-	});
-</script>
+@{
+    foreach (var product in Model.Products)
+    { 
+    <div class="product">
+        <a href="@product.Url">
+            <span class="title">@product.Name</span><br />
+            <img src="@Url.Content(product.ImageSrc)" /><br />
+        </a>
+        <span class="desc">@product.Description</span>
+    </div>
+    }
+}
