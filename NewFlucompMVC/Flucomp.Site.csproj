@@ -153,9 +153,14 @@
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Include\css\fc_new_logo.png" />
     <Content Include="Include\css\home.css" />
+    <Content Include="Include\css\style.css" />
     <Content Include="Include\img\arrow.png" />
     <Content Include="Include\img\button_bg.png" />
+    <Content Include="Include\img\fabric2.png" />
+    <Content Include="Include\img\fabric.png" />
+    <Content Include="Include\img\fc_new_logo.png" />
     <Content Include="Include\img\icon\google_plus.png" />
     <Content Include="Include\img\icon\twitter.png" />
     <Content Include="Include\img\pic\diana_actual.png" />
@@ -166,6 +171,7 @@
     <Content Include="Include\img\logo_old.png" />
     <Content Include="Include\img\pic\diana.jpg" />
     <Content Include="Include\img\pic\vince.jpg" />
+    <Content Include="Include\img\rust.png" />
     <Content Include="Include\img\stripe_body.png" />
     <Content Include="Include\img\stripe_footer.png" />
     <Content Include="Include\img\stripe_nav.png" />
@@ -207,7 +213,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\old_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\About.cshtml" />
@@ -238,6 +244,7 @@
     <Content Include="Views\Shared\PageTitle.cshtml" />
     <Content Include="Views\Home\ContentWriter.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

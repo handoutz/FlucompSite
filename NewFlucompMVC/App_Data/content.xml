@@ -7,10 +7,10 @@
   </Global>
   <Page Name="Footer">
     <Content Name="About">
-      <![CDATA[Flucomp Site {appversion}<br />
+      <![CDATA[Flucomp Site {appversion}&nbsp;
 			<a href="http://www.manta.com/c/mml63m0/flucomp-enterprises-inc" target="_blank">
 				<img src="http://www.manta.com/manta/images/mantaBadge_md.png" height="32" width="80" border="0" />
-			</a><br />
+			</a>&nbsp;
 			Copyright &copy; 2012-2013 Flucomp Enterprises, Inc.]]>
     </Content>
   </Page>

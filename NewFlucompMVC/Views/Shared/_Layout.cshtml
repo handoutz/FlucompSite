@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>@ViewBag.Title - Flucomp</title>
-    <link rel="stylesheet" href="@Url.Content("~/Include/css/home.css")" type="text/css" />
+    <link rel="stylesheet" href="@Url.Content("~/Include/css/style.css")" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
     <script src="http://cdn.flucomp.com/scripts/jquery.tools.min.js" type="text/javascript"></script>
@@ -34,63 +34,24 @@
     <!--End Analytics import-->
 </head>
 <body>
-    <div id="top">
-        <div id="banner" class="wrapper">
-            <img src="@Url.Content("~/Include/img/logo.png")" alt="Flucomp Enterprises" id="bannerImg"/>
-
-            <div id="navigate">
-                <div id="nav" class="wrapper">
-                    <!--Begin navigation render-->
-                    @{Html.RenderPartial("NavMenu", (NewFlucompMVC.Models.NavigationModel)ViewBag.NavMenu);}
-                    <!--End navigation render-->
-                </div>
+    <div id="header">
+        <div id="headerInner" class="wrapper">
+            <div id="banner">
+                <img src="@Url.Content("~/Include/img/fc_new_logo.png")" alt="FluComp" />
+            </div>
+            <div id="navigation">
+                @{Html.RenderPartial("NavMenu", (NewFlucompMVC.Models.NavigationModel)ViewBag.NavMenu);}
             </div>
         </div>
+        <div id="border"></div>
     </div>
-    <div id="bottom">
-        <!--<div id="constructionNotice" class="wrapper">
-			<img src="@Url.Content("~/Include/img/warning.png")" alt="Warning"/>
-			<span>This site is currently under construction!</span>
-		</div>-->
-        <div id="contentArea" class="wrapper">
-            <!--Begin content render-->
+    <div id="content">
+        <div id="contentInner" class="wrapper">
             @RenderBody()
-            <!--End content render-->
         </div>
     </div>
-    <div id="footer">
-        <div id="footContent" class="wrapper">
-            <table id="footerTable">
-                <tr>
-                    <th>Products
-                    </th>
-                    <th>Quick Links
-                    </th>
-                    <th>About
-                    </th>
-                </tr>
-                <tr>
-                    <!--Products-->
-                    <td>
-                        <ul>
-                            <li><a href="/AbiConvert">AbiConvert</a></li>
-                        </ul>
-                    </td>
-                    <!--Quick Links-->
-                    <td></td>
-                    <!--about section-->
-                    <td>
-                        @Data.Content.Pages["Footer"].Contents["About"].HtmlValue
-                        <!--badges from http://venturas.org/badges.html -->
-                        <!--<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fflucomp.com%2FnewDesign">
-								<img src="@Url.Content("~/Include/img/valid_html5_blue.png")" alt="HTML5 Valid" />
-							</a><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fflucomp.com%2FAreas%2FnewDesign%2FInclude%2Fcss%2Fhome.css">
-									<img src="@Url.Content("~/Include/img/valid_css3_blue.png")" alt="CSS3 Valid" />
-								</a>-->
-                    </td>
-                </tr>
-            </table>
-        </div>
+    <div id="footer" class="wrapper">
+        @Data.Content.Pages["Footer"].Contents["About"].HtmlValue
     </div>
 </body>
 </html>
