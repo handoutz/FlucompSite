@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Content>
+  <Global>
+    <FullCompanyName>Flucomp Enterprises, Inc.</FullCompanyName>
+    <CompanyDescription>Flucomp Enterprises, Inc. has been providing CFD services and programming expertise since 2004.</CompanyDescription>
+    <SEOKeywords>cfd, computational fluid dynamics, programming, engineering, unit converter, flucomp</SEOKeywords>
+  </Global>
+  <Page Name="Footer">
+    <Content Name="About">
+      <![CDATA[Flucomp Site {appversion}<br />
+			<a href="http://www.manta.com/c/mml63m0/flucomp-enterprises-inc" target="_blank">
+				<img src="http://www.manta.com/manta/images/mantaBadge_md.png" height="32" width="80" border="0" />
+			</a><br />
+			Copyright &copy; 2012-2013 Flucomp Enterprises, Inc.]]>
+    </Content>
+  </Page>
+  <Page Name="Home">
+    <Content Name="Summary">
+      <![CDATA[
+			<h3>Our Mission</h3>
+			<p>
+				Our mission is to offer quality engineering software to engineers so they can be more productive in their jobs.  
+			</p>
+			<p>
+				We also provide consulting on technical, business and engineering assessments, evaluation and technology improvement and planning. 
+			</p>
+			<p>
+				In order to achieve the best solutions we work side by side with our clients to fully understand and integrate current and new technology, business practices, rules, procedures and workflow, and labor (human capacity).
+			</p>
+			<p>
+				It is to these ends that we provide two branches of services, <a href="/Home/Services/Engineering">engineering consulting</a>
+				and <a href="/Home/Services/Software">software development</a>.
+			</p>]]>
+    </Content>
+  </Page>
+  <Page Name="Products">
+    <Product>
+      <Name>AbiConvert</Name>
+      <Description>A unit converter designed by and for engineers in all fields.</Description>
+      <Link>~/AbiConvert</Link>
+      <Picture>~/Include/img/convertLogo.png</Picture>
+    </Product>
+  </Page>
+  <Page Name="Services">
+    <Content Name="Index">
+      <![CDATA[
+				<h3>Our Services</h3>
+				<table id="service_table">
+					<tbody>
+						<tr>
+							<td class="service_title">
+								<a href="/Home/Services/Engineering">Engineering</a>
+							</td>
+							<td class="service_desc">
+								<p>
+									Independent consulting in the fields of plant optimization and economics, chemical analyses 
+									and process development with an initial pro-forma analysis, new development of processes, 
+									technology training and research assistance.
+								</p>
+								<p>
+									Our practice also includes plant assessments through process engineering and design,
+									providing necessary insights to improve current efficiency and product yields in existing plants,
+									expansions, integration of new plant processes and startups.
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="service_title">
+								<a href="/Home/Services/Software">Software</a>
+							</td>
+							<td class="service_desc">
+								<p>
+									Custom software development services, for businesses and engineers alike.
+								</p>
+								<p>
+									We can work with your current software by integrating legacy software, or provide you with total new software
+									solutions.
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>]]>
+    </Content>
+    <Content Name="Engineering">
+      <![CDATA[
+			<h3>Engineering Consultancy</h3>
+			<p>
+				Flucomp was founded by Dr. Diana Matonis, a leader in her industry for more than 25 years. Our engineering consultancy
+				practice includes our capabilities in plant assessments through the use of process engineering and design, to provide 
+				insights of current efficiency and product yield leading to their improvements through new plant technology and startups.
+			</p>
+			<h3>Example</h3>
+			<p>
+				We improved the quality, consistency and yield of a product for a startup biofuels company that used a new integrated
+				pyrolytic process for obtaining saturated and unsaturated alkyl esters from biomass; we improved their process to the point
+				where they were able to produce a consistent biodiesel-grade product.
+			</p>
+			<h3>Our Process</h3>
+			<p>
+				In cultivating a robust assessment, evaluation and technology planning, we utilize our skills and experience and have 
+				identified and typically use three key phases as a starting point.
+			</p>
+			<ol>
+				<li>
+					Iterative Analysis
+					<br />
+					<ul>
+						<li><em>SIPOC</em> (Suppliers, Inputs, Processes, Outputs and Customer) oriented interviews</li>
+						<li>Models made based on the results of these interviews</li>
+						<li>Modeled processes are reviewed with the process owners and/or stakeholders</li>
+					</ul>
+				</li>
+				<li>
+					Model Based Systems Engineering for Value (Value Based)
+					<br />
+					<ul>
+						<li>Translate business practice reality into critical design models and requirement specifications.</li>
+						<li>Accurately capture, analyze and verify design integrity before problems become embedded in the system</li>
+					</ul>
+				</li>
+				<li>
+					Implementation
+					<br />
+					<ul>
+						<li>Improvements grounded in reality, making them efficient and effective.</li>
+						<li>Requirements create an accurate picture of business practice needs.</li>
+						<li>Understanding the client's business practices results in a more focused capability development and improvement</li>
+						<li>Results are directly traceable to the implemented solutions</li>
+					</ul>
+				</li>
+			</ol>]]>
+    </Content>
+    <Content Name="Software">
+      <![CDATA[
+<h3>Software Development Services</h3>
+		<p>
+			Our team has more than 30 combined years of experience in software development.
+			We currently provide the following:
+		</p>
+		<table id="service_software_table">
+			<thead>
+				<tr>
+					<th>Software</th>
+					<th>Mobile Apps</th>
+					<th>Web Development</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<ul>
+							<li>C/C++ Applications</li>
+							<li>C#/.NET Applications</li>
+							<li>Windows 8 Applications</li>
+							<li>Java Applications</li>
+							<li>Database Services: MySQL, Microsoft SQL, SQLite</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Android Applications in Java</li>
+							<li>HTML5 Platform-Independent Mobile Applications</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Cloud Computing Solutions</li>
+							<li>HTML5/JavaScript/jQuery Client-Side Webapps</li>
+							<li>PHP/MySQL Sites</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			We have found that by working side-by-side with our clients will produce the best results.
+			<br />
+			Email us now for a quote: <a href="mailto:vmatonis@flucomp.com">vmatonis@flucomp.com</a>.
+		</p>
+]]>
+    </Content>
+    <Content Name="Placeholder">
+      <![CDATA[[Placeholder for content]]]>
+    </Content>
+  </Page>
+  <Page Name="AboutUs">
+    <Content Name="Placeholder">
+      <![CDATA[[Placeholder for content]]]>
+    </Content>
+  </Page>
+  <Page Name="Contact">
+    <Content Name="Email">
+      <![CDATA[<a href="mailto:inbox@flucomp.com">inbox@flucomp.com</a>]]>
+    </Content>
+    <Content Name="Phone">(708) 529-8725</Content>
+    <Content Name="Twitter">
+      <![CDATA[
+			Follow us on Twitter: <a href="http://twitter.com/flucomp" target="_blank">@flucomp</a>
+			]]>
+    </Content>
+    <Content Name="GooglePlus">
+      <![CDATA[
+			Add us to your circles on Google Plus: <a href="https://plus.google.com/100714296740064629468" target="_blank">Flucomp Enterprises, Inc.</a>
+			]]>
+      <!--logo attributed to Alice Olivier: http://www.vectorfree.com/g-logo-pack -->
+    </Content>
+  </Page>
+  <Page Name="Staff">
+    <Person>
+      <Name>Dr. Diana Matonis</Name>
+      <Experience>25 years</Experience>
+      <Position>President/CEO, Consultant</Position>
+      <Title>Founder</Title>
+      <Biography>
+        <![CDATA[Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
+				peer reviewed conference presentations. She has also written articles on Research and Development, Project 
+				Management, Process and Asset Engineering. During her tenure she developed custom engineering software 
+				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.<br />
+				Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
+				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.]]>
+      </Biography>
+      <Picture>~/Include/img/pic/diana_actual.png</Picture>
+      <Email>dmatonis@flucomp.com</Email>
+      <FullBioLink>https://www.linkedin.com/in/matonis/</FullBioLink>
+    </Person>
+    <Person>
+      <Name>Vince Matonis</Name>
+      <Experience>6 years</Experience>
+      <Position>Software Engineer, Systems Administrator, Consultant</Position>
+      <Title>IT Director</Title>
+      <Biography>
+        <![CDATA[Software Developer for 6 years. <br />
+				Programming experience: C#, C/C++, Java <br />
+				Web Development experience: ASP.NET/C#, PHP/MySQL, HTML4&amp;HTML5, CSS2&amp;CSS3, JavaScript, jQuery]]>
+      </Biography>
+      <Picture>~/Include/img/pic/vince.jpg</Picture>
+      <Email>vmatonis@flucomp.com</Email>
+      <FullBioLink>https://www.linkedin.com/in/vmatonis/</FullBioLink>
+    </Person>
+  </Page>
+  <Page Name="Portfolio">
+    <Content Name="Index">
+      <![CDATA[<h3>Examples of our Work</h3>
+		<table id="portfolio_index">
+			<tbody>
+				<tr>
+					<td class="ptitle">
+						Engineering
+					</td>
+					<td class="pdesc">
+						<p>
+							Independent consulting includes projects in the fields of biomass pyrolysis plant optimization and 
+						economics, chemical analyses and process development with an initial pro-forma analysis, new development 
+						processes and technology training and research assistance in the area of  thermal plasma pyrolysis 
+						process for converting waste to fuels, and the integration of fuel cells within existing Power Plants 
+						at Fuel Cell Energy. 
+						</p>
+						<p>
+							For example, we improved the quality, and consistency and yield of product for a startup biofuels 
+							company using a new integrated pyrolytic process for obtaining saturated and unsaturated alkyl 
+							esters from biomass. to consistently produce biodiesel grade product.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="ptitle">
+						Software
+					</td>
+					<td class="pdesc">
+						Our custom software includes the successful completion of a major stand-alone software package
+						called Pipecalc: a calculator for the properties of polypropylene pipeline installations, both 
+						subterranean and above-ground.
+					</td>
+				</tr>
+			</tbody>
+		</table>]]>
+    </Content>
+  </Page>
+</Content>

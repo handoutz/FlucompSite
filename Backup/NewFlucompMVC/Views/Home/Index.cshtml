@@ -1,0 +1,16 @@
+﻿@{
+	ViewBag.Title = "Home";
+	Layout = ViewBag.GetLayout();
+	ViewBag.ShowSidebar = false;
+}
+<h2>
+	@ViewBag.Title
+</h2>
+<div id="home" class="contentInner page">
+	<h3>
+		@Data.Content.Global.FullCompanyName
+	</h3>
+	<p>
+		@Data.Content.Pages["Home"].Contents["Summary"].Value
+	</p>
+</div>

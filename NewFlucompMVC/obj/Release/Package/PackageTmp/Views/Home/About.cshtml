@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "About Us";
+    Layout = ViewBag.GetLayout();
+    ViewBag.ShowSidebar = false;
+}
+@{
+	Html.RenderPartial("PageTitle");
+}
+<div id="about" class="contentInner page">
+    @Data.Content.Pages["AboutUs"].Contents["Placeholder"].Value
+</div>

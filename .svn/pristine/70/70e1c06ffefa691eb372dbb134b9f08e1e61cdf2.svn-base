@@ -1,0 +1,429 @@
+﻿/*
+	Defaults
+*/
+* {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+body {
+	font-family: Verdana, Corbel, "Lucida Grande", "DejaVu Sans", sans-serif;
+	color: #444;
+	text-align: left;
+	letter-spacing: 0;
+	background: #03426a url(../img/stripe_footer.png) repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0.1em 0.1em;
+}
+
+h3 {
+	padding: 0.25em 0.1em;
+}
+
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+a, a:visited {
+	color: #222;
+	text-decoration: none;
+}
+
+.contentInner a {
+	color: orange;
+}
+
+p {
+	padding-bottom: 0.5em;
+}
+/*
+Da banner
+*/
+#bannerImg {
+	width: 200px;
+	height: 200px;
+	text-align: left;
+}
+/*
+	UI Elements
+*/
+img.arrow {
+	width: 18px;
+	height: 18px;
+}
+
+#constructionNotice {
+	background: yellow url(../img/stripe_warn.png) repeat;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 0px 5px;
+}
+
+	#constructionNotice span {
+		vertical-align: 50%;
+	}
+
+	#constructionNotice img {
+		width: 32px;
+		height: 32px;
+	}
+/*
+	Header
+*/
+#top {
+	margin: 0; /* background created at http://www.stripegenerator.com */
+	background: #0a67a3 url(../img/stripe_top.png) repeat;
+}
+
+	#top #navigate {
+		background: #ff8e00 url(../img/stripe_nav.png) repeat;
+		-moz-box-shadow: inset 0px -2px 5px rgba(30,30,30,0.25);
+		-webkit-box-shadow: inset 0px -2px 5px rgba(30,30,30,0.25);
+		box-shadow: inset 0px -2px 5px rgba(30,30,30,0.25);
+	}
+
+	#top #nav {
+	}
+
+		#top #nav * {
+			list-style-type: none;
+			display: inline-block;
+		}
+
+.navTab {
+	height: 32px;
+	position: relative;
+	padding: 0 10px;
+	margin-top: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+	.navTab a {
+		text-decoration: none;
+	}
+
+#top .notSelected a {
+	color: #216477;
+}
+
+#top .selected a {
+	color: #067d9f;
+}
+
+#top .selected {
+	background: #f5f5f5;
+}
+
+#top .notSelected {
+	background: transparent;
+}
+
+.navTab div {
+	cursor: pointer;
+	margin-top: 4px;
+	font-size: 1.1em;
+}
+
+#top .border {
+	height: 1px;
+	width: 100%;
+	background: #0a67a3;
+	border-top: 1px solid #24587a;
+	border-bottom: 1px solid #B67C29;
+}
+
+#top #banner {
+}
+/*
+	Content Area
+*/
+#bottom {
+	background: #f5f5f5;
+	padding-top: 10px;
+	min-height: 16em;
+	padding-bottom: 32px;
+}
+
+#contentArea {
+	height: auto;
+    font-size: 0.95em;
+}
+
+	#contentArea #sidebar {
+		width: 245px;
+		-moz-border-radius: 7px 0px 0px 7px;
+		-webkit-border-radius: 7px 0px 0px 7px;
+		border-radius: 7px 0px 0px 7px;
+	}
+
+	#contentArea ol, #contentArea ul {
+		padding-left: 2.5em;
+	}
+
+	#contentArea .prodInfo {
+		padding-left: 5px;
+		width: 75%;
+	}
+
+	#contentArea table {
+		border-collapse: collapse;
+	}
+
+	#contentArea .content {
+		border-radius: 0px 7px 7px 0px;
+		background: white;
+	}
+
+	#contentArea .contentInner {
+		border: 2px solid #ffc173;
+		border-radius: 9px;
+		background: white;
+	}
+
+	#contentArea #contentContainer {
+		padding: 16px;
+	}
+
+.clear {
+	clear: both;
+}
+/*
+	Product Area
+*/
+#products {
+	background: white;
+}
+
+	#products table td {
+		vertical-align: top;
+	}
+
+	#products td.content {
+		width: 735px;
+	}
+
+	#products .productImg {
+		width: 256px;
+		height: 198px;
+	}
+
+	#products #sidebar {
+		background: #03426A;
+	}
+
+		#products #sidebar .divider {
+			/*height: 1px;     padding-right: 10px;     background: black;*/
+		}
+
+		#products #sidebar a {
+			color: #fff;
+		}
+
+		#products #sidebar .product {
+			padding: 10px 10px;
+			text-align: right;
+			box-shadow: inset -5px 0px 5px rgba(30,30,30,0.75);
+			cursor: pointer;
+		}
+
+		#products #sidebar .selectedProduct {
+			background: white;
+			box-shadow: none;
+		}
+
+			#products #sidebar .selectedProduct a {
+				color: black;
+			}
+
+		#products #sidebar .top {
+			border-radius: 6px 0px 0px 0px;
+		}
+
+		#products #sidebar .bot {
+			border-radius: 0px 0px 0px 6px;
+		}
+/*
+	Single Pages
+*/
+#contentArea .page {
+	padding: 5px;
+}
+/*
+	Footer
+*/
+#footer {
+	color: White;
+	background: transparent;
+	box-shadow: inset 0px 10px 5px rgba(30,30,30,0.25);
+	border-top: 1px solid #012f4e;
+}
+
+	#footer a {
+		color: White;
+		font-weight: bold;
+	}
+
+	#footer ul * {
+		list-style-type: none;
+	}
+
+#footerTable {
+	width: 100%;
+}
+
+	#footerTable th {
+		padding: 8px;
+		font-size: 1em;
+	}
+
+	#footerTable td {
+		padding: 8px;
+		font-size: .75em;
+		vertical-align: top;
+		width: 33%;
+	}
+/* Staff Page */
+.aboutPerson {
+	margin-bottom: 1.75em;
+}
+
+	.aboutPerson img.profile {
+		width: 128px;
+		height: 128px;
+	}
+
+	.aboutPerson .staff_email {
+		font-size: 0.95em;
+	}
+
+    .aboutPerson .profilepicWrap {
+        margin: 0.25em;
+        padding: 0.25em;
+        width: 128px;
+        height: 128px;
+        border: solid 1px #7a5c37;
+        -moz-box-shadow: 0 0 5px rgba(50,50,50,150);
+        -webkit-box-shadow: 0 0 5px rgba(50,50,50,150);
+        box-shadow: 0 0 5px rgba(50,50,50,150);
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+	.aboutPerson table.personTable {
+	}
+
+		.aboutPerson table.personTable td {
+			vertical-align: top;
+			padding: 0.1em;
+			margin: 0;
+		}
+
+		.aboutPerson table.personTable .identity {
+			font-weight: bold;
+			font-size: 1.25em;
+		}
+
+		.aboutPerson table.personTable .position {
+			font-style: italic;
+			font-weight: normal;
+			font-size: 0.825em;
+		}
+        .aboutPerson table.personTable .socialSpan {
+            margin: 0.25em 0;
+        }
+
+		.aboutPerson table.personTable .bio {
+			/*font-size: 0.95em;*/
+		}
+
+		.aboutPerson table.personTable .title {
+			font-size: 0.95em;
+		}
+
+/*
+Services
+*/
+
+#service_table {
+}
+
+	#service_table td {
+		padding: 0.25em;
+		vertical-align: middle;
+		padding-bottom: 0.75em;
+	}
+
+	#service_table .service_title {
+		font-size: 1.25em;
+		text-align: right;
+		padding-right: 0.5em;
+		padding-top: 0;
+		vertical-align: top;
+		width: 20%;
+	}
+
+	#service_table .service_desc {
+		width: 80%;
+	}
+
+#portfolio_index {
+	margin-bottom: 1em;
+}
+
+	#portfolio_index td.ptitle {
+		font-size: 1.25em;
+		text-align: right;
+		padding-right: 0.5em;
+		padding-top: 0;
+		vertical-align: top;
+		width: 20%;
+	}
+
+	#portfolio_index td.pdesc {
+		width: 80%;
+		vertical-align: top;
+	}
+
+#service_software_table {
+	margin-bottom: 1em;
+}
+
+	#service_software_table th {
+		font-weight: normal;
+		font-size: 1.25em;
+		padding: 0 1em 0.5em;
+		vertical-align: bottom;
+	}
+
+	#service_software_table td {
+		width: 33%;
+		vertical-align: top;
+	}
+/*
+Contact Page
+*/
+#contact {
+}
+
+	#contact td:not(.contact_icon) {
+		padding-left: 0.5em;
+	}
+
+	#contact .contact_icon {
+		width: 42px;
+		height: 42px;
+		text-align: right;
+	}
+
+/*
+Breadcrumbs
+*/
+#breadcrumb {
+	margin-bottom: 0.5em;
+	font-size: 0.9em;
+}

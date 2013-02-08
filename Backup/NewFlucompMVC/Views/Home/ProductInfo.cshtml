@@ -1,0 +1,20 @@
+﻿@model NewFlucompMVC.Models.ProductInfo
+@{
+    ViewBag.Title = "Products";
+    ViewBag.ShowSidebar = true;
+}
+<table>
+    <tr>
+        <td>
+            <img src="@Model.ImageSrc" alt="@Model.Name" />
+        </td>
+        <td class="prodInfo">
+            <h2>
+                <a href="@Model.Url">@Model.Name</a>
+            </h2>
+            <span class="bodytext">
+                @Model.Description
+            </span>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,16 @@
+﻿@model NewFlucompMVC.Models.ServiceModel
+@{
+	ViewBag.Title = "Services";
+	Layout = ViewBag.GetLayout();
+	ViewBag.ShowSidebar = false;
+	if (Model.WhichService != "Index")
+	{
+		ViewBag.Subpage = Model.WhichService;
+	}
+}
+@{
+	Html.RenderPartial("PageTitle");
+}
+<div id="services" class="contentInner page">
+	@Model.PageContent
+</div>

@@ -1,0 +1,30 @@
+﻿@{
+	ViewBag.Title = "Contact Us";
+	Layout = ViewBag.GetLayout();
+	ViewBag.ShowSidebar = false;
+}
+<h2>
+	@ViewBag.Title
+</h2>
+<div id="contact" class="contentInner page">
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<img src="@Url.Content("~/Include/img/icon/email.png")" alt="Email">
+				</td>
+				<td>
+					@Data.Content.Pages["Contact"].Contents["Email"].HtmlValue
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="@Url.Content("~/Include/img/icon/phone.png")" alt="Phone"/>
+				</td>
+				<td>
+					@Data.Content.Pages["Contact"].Contents["Phone"].Value
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

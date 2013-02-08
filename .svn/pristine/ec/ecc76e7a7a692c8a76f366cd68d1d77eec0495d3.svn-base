@@ -1,0 +1,11 @@
+﻿@{
+	ViewBag.Title = "Home";
+	Layout = ViewBag.GetLayout();
+	ViewBag.ShowSidebar = false;
+}
+@{
+	Html.RenderPartial("PageTitle");
+}
+<div id="home" class="contentInner page">
+	@Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+</div>

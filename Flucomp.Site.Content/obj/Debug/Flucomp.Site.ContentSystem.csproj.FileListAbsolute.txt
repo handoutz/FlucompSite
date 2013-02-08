@@ -1,0 +1,14 @@
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\obj\Debug\Flucomp.Site.ContentSystem.csprojResolveAssemblyReference.cache
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\db\site.sdf
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\Flucomp.Site.Content.dll.config
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\Flucomp.Site.Content.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\Flucomp.Site.Content.pdb
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\EntityFramework.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\System.Data.SQLite.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\EntityFramework.xml
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\obj\Debug\Flucomp.Site.Content.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\obj\Debug\Flucomp.Site.Content.pdb
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\NewFlucompMVC.dll
+C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\Flucomp.Site.Content\bin\Debug\NewFlucompMVC.pdb

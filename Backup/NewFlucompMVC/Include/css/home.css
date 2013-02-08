@@ -1,0 +1,240 @@
+﻿/*
+	Defaults
+*/
+* {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+body {
+	font-family: Verdana, Corbel, "Lucida Grande" , "DejaVu Sans" , sans-serif;
+	color: #444;
+	text-align: left;
+	letter-spacing: 0;
+	background: #03426a url(../img/stripe_footer.png) repeat;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0.1em 0.1em;
+}
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+a, a:visited {
+	color: #222;
+	text-decoration: none;
+}
+.contentInner a {
+	color: orange;
+}
+/*
+Da banner
+*/
+#bannerImg {
+	width: 200px;
+	height: 200px;
+	text-align: left;
+}
+/*
+	UI Elements
+*/
+img.arrow {
+	width: 18px;
+	height: 18px;
+}
+#constructionNotice {
+	background: yellow url(../img/stripe_warn.png) repeat;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 0px 5px;
+}
+#constructionNotice span {
+	vertical-align: 50%;
+}
+#constructionNotice img {
+	width: 32px;
+	height: 32px;
+}
+/*
+	Header
+*/
+#top {
+	margin: 0; /* background created at http://www.stripegenerator.com */
+	background: #0a67a3 url(../img/stripe_top.png) repeat;
+}
+#top #navigate {
+	background: #ff8e00 url(../img/stripe_nav.png) repeat;
+	box-shadow: inset 0px -2px 5px rgba(30,30,30,0.25);
+}
+#top #nav {
+}
+#top #nav * {
+	list-style-type: none;
+	display: inline-block;
+}
+.navTab {
+	height: 32px;
+	position: relative;
+	padding: 0 10px;
+	margin-top: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.navTab a {
+	text-decoration: none;
+}
+#top .notSelected a {
+	color: #216477;
+}
+#top .selected a {
+	color: #067d9f;
+}
+#top .selected {
+	background: #f5f5f5;
+}
+#top .notSelected {
+	background: transparent;
+}
+.navTab div {
+	cursor: pointer;
+	margin-top: 4px;
+	font-size: 1.1em;
+}
+#top .border {
+	height: 1px;
+	width: 100%;
+	background: #0a67a3;
+	border-top: 1px solid #24587a;
+	border-bottom: 1px solid #B67C29;
+}
+#top #banner {
+}
+/*
+	Content Area
+*/
+#bottom {
+	background: #f5f5f5;
+	padding-top: 10px;
+	min-height: 64px;
+	padding-bottom: 32px;
+}
+#contentArea {
+	height: auto;
+}
+#contentArea #sidebar {
+	width: 245px;
+	border-radius: 7px 0px 0px 7px;
+}
+#contentArea .prodInfo {
+	padding-left: 5px;
+	width: 75%;
+}
+#contentArea table {
+	border-collapse: collapse;
+}
+#contentArea .content {
+	border-radius: 0px 7px 7px 0px;
+	background: white;
+}
+#contentArea .contentInner {
+	border: 2px solid #ffc173;
+	border-radius: 9px;
+	background: white;
+}
+#contentArea #contentContainer {
+	padding: 16px;
+}
+.clear {
+	clear: both;
+}
+/*
+	Product Area
+*/
+#products {
+	background: white;
+}
+#products table td {
+	vertical-align: top;
+}
+#products td.content {
+	width: 735px;
+}
+#products #sidebar {
+	background: #03426A;
+}
+#products #sidebar .divider {
+	/*height: 1px;     padding-right: 10px;     background: black;*/
+}
+#products #sidebar a {
+	color: #fff;
+}
+#products #sidebar .product {
+	padding: 10px 10px;
+	text-align: right;
+	box-shadow: inset -5px 0px 5px rgba(30,30,30,0.75);
+	cursor: pointer;
+}
+#products #sidebar .selectedProduct {
+	background: white;
+	box-shadow: none;
+}
+#products #sidebar .selectedProduct a {
+	color: black;
+}
+#products #sidebar .top {
+	border-radius: 6px 0px 0px 0px;
+}
+#products #sidebar .bot {
+	border-radius: 0px 0px 0px 6px;
+}
+/*
+	Single Pages
+*/
+#contentArea .page {
+	padding: 5px;
+}
+/*
+	Footer
+*/
+#footer {
+	color: White;
+	background: transparent;
+	box-shadow: inset 0px 10px 5px rgba(30,30,30,0.25);
+	border-top: 1px solid #012f4e;
+}
+#footer a {
+	color: White;
+	font-weight: bold;
+}
+#footer ul * {
+	list-style-type: none;
+}
+#footerTable {
+	width: 100%;
+}
+#footerTable th {
+	padding: 8px;
+	font-size: 1em;
+}
+#footerTable td {
+	padding: 8px;
+	font-size: .75em;
+	vertical-align: top;
+	width: 33%;
+}
+/* Staff Page */
+img.profile {
+	width: 128px;
+	height: 128px;
+}
+table.personTable td {
+	vertical-align: top;
+	padding: 0.1em;
+}
+table.personTable .fullName {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+table.personTable .position {
+	font-style: italic;
+	font-size: 0.95em;
+}

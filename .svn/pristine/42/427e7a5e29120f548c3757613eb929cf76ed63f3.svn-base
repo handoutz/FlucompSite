@@ -1,0 +1,41 @@
+<h3>Software Development Services</h3>
+<p>
+	Our team has more than 30 combined years of experience in software development.
+	We currently provide the following:
+</p>
+<table id="service_software_table">
+	<thead>
+		<tr>
+			<th>Software</th>
+			<th>Mobile Apps</th>
+			<th>Web Development</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<ul>
+					<li>C/C++ Applications</li>
+					<li>C#/.NET Applications</li>
+					<li>Windows 8 Applications</li>
+					<li>Java Applications</li>
+					<li>Database Services: MySQL, Microsoft SQL, SQLite</li>
+					<li></li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Android Applications in Java</li>
+					<li>HTML5 Platform-Independent Mobile Applications</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Cloud Computing Solutions</li>
+					<li>HTML5/JavaScript/jQuery Client-Side Webapps</li>
+					<li>PHP/MySQL Sites</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>

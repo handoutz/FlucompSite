@@ -1,0 +1,24 @@
+﻿<div id="breadcrumb">
+	<a href="/">Flucomp</a> &raquo;
+	@{
+		if (ViewBag.Subpage != null)
+		{
+		<a href="@Url.Action(Request.RequestContext.RouteData.Values["action"].ToString(), new
+																							   {
+																								   id = "Index"
+																							   })">@ViewBag.Title</a>
+		@Html.Raw("&raquo;")
+		<a href="@Url.Action(Request.RequestContext.RouteData.Values["action"].ToString(), new
+																							   {
+																								   id = ViewBag.Subpage
+																							   })">@ViewBag.Subpage</a>
+		}
+		else if (Request.Url != null)
+		{
+		<a href="@Request.Url.AbsoluteUri">@ViewBag.Title</a>
+		}
+	}
+</div>
+<script type="text/javascript">
+	pageTitle = '@ViewBag.Title - Flucomp';
+</script>

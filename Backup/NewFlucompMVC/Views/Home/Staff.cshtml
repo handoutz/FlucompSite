@@ -1,0 +1,39 @@
+﻿@{
+	ViewBag.Title = "Our Staff";
+	Layout = ViewBag.GetLayout();
+	ViewBag.ShowSidebar = false;
+}
+<h2>
+	@ViewBag.Title
+</h2>
+<div id="about" class="contentInner page">
+	@{
+		foreach (var person in Data.Content.Pages["Staff"].Person)
+		{
+		<div class="aboutPerson">
+			<table class="personTable">
+				<tbody>
+					<tr>
+						<td rowspan="3">
+							<img src="@Url.Content(person.Picture)" alt="Their Picture" class="profile"/>
+						</td>
+						<td class="fullName">
+							@person.Name
+						</td>
+					</tr>
+					<tr>
+						<td class="position">
+							@person.Position
+						</td>
+					</tr>
+					<tr>
+						<td class="bio">
+							@person.Biography
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		}
+	}
+</div>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Content>
+	<Global>
+		<FullCompanyName>Flucomp Enterprises, Inc.</FullCompanyName>
+		<CompanyDescription>Flucomp Enterprises, Inc. has been providing CFD services and programming expertise since 2004.</CompanyDescription>
+		<SEOKeywords>cfd, computational fluid dynamics, programming, engineering, unit converter, flucomp</SEOKeywords>
+	</Global>
+	<Page Name="Home">
+		<Content Name="Summary">
+			We provide and create engineering software and mobile application solutions.
+		</Content>
+	</Page>
+	<Page Name="Products">
+		<Product>
+			<Name>AbiConvert</Name>
+			<Description>A unit converter designed by and for engineers in all fields.</Description>
+			<Link>~/../AbiConvert</Link>
+		</Product>
+		<Product>
+			<Name>Test Product A</Name>
+			<Description>It tests stuff, I guess?</Description>
+			<Link>~/</Link>
+		</Product>
+	</Page>
+	<Page Name="Services">
+		<Content Name="Placeholder">
+			<![CDATA[[Placeholder for content]]]>
+		</Content>
+	</Page>
+	<Page Name="AboutUs">
+		<Content Name="Placeholder">
+			<![CDATA[[Placeholder for content]]]>
+		</Content>
+	</Page>
+	<Page Name="Contact">
+		<Content Name="Email"><![CDATA[<a href="mailto:inbox@flucomp.com">inbox@flucomp.com</a>]]></Content>
+		<Content Name="Phone">708-320-8794</Content>
+	</Page>
+	<Page Name="Staff">
+		<Person>
+			<Name>Diana Matonis</Name>
+			<Experience>700 years</Experience>
+			<Position>President/CEO, Consultant</Position>
+			<Biography>I do stuff, and other stuff.</Biography>
+			<Picture>~/Include/img/pic/diana.jpg</Picture>
+		</Person>
+		<Person>
+			<Name>Vince Matonis</Name>
+			<Experience>6 years</Experience>
+			<Position>Software Engineer, Consultant</Position>
+			<Biography>I program and stuff.</Biography>
+			<Picture>~/Include/img/pic/vince.jpg</Picture>
+		</Person>
+	</Page>
+</Content>

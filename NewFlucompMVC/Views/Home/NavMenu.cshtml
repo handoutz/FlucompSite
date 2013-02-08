@@ -1,0 +1,16 @@
+﻿@model NewFlucompMVC.Models.NavigationModel
+@{
+    string result = "";
+    foreach (var link in Model.Links)
+    {
+        string addit = ((link.Text == ViewBag.Title) ? "selected" : "notSelected");
+        string classes = "navTab " + addit;
+        result += "<li class='" + classes + "'><div>";
+        result += "<a href='" + link.Url + "'>" + link.Text + "</a>";
+        result += "</div></li>";
+    }
+    IHtmlString str = Html.Raw(result);
+}
+<ul>
+    @str
+</ul>

@@ -1,0 +1,16 @@
+﻿@model NewFlucompMVC.Models.PortfolioModel
+@{
+	ViewBag.Title = "Portfolio";
+	Layout = ViewBag.GetLayout();
+	ViewBag.ShowSidebar = false;
+}
+@{
+	if (Model.CaseId != "Index")
+	{
+		ViewBag.Subpage = Model.CaseId;
+	}
+	Html.RenderPartial("PageTitle");
+}
+<div id="portfolio" class="contentInner page">
+	@Model.Content
+</div>
