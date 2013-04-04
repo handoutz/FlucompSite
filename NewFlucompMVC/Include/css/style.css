@@ -10,6 +10,7 @@ body {
     font-size: 1.05em;
     letter-spacing: 0;
     background: black url(../img/fabric2.png) repeat;
+    overflow-y: hidden;
 }
 
 .wrapper {
@@ -41,12 +42,23 @@ a {
 
     #header #headerInner {
         padding: 1.25em;
-        padding-bottom: 0.75em;
+        padding-bottom: 1.25em;
     }
 
         #header #headerInner * {
             display: inline-block;
-            vertical-align:top;
+            vertical-align: top;
+        }
+
+        #header #headerInner #banner {
+            width: 8em;
+        }
+
+        #header #headerInner img#fcLogo {
+            position: absolute;
+            width: 7em;
+            height: 7em;
+            top: -.5em;
         }
 
     #header #border {
@@ -86,6 +98,12 @@ a {
     padding: 1em;
 }
 
+    #content #contentInner {
+        margin-top: -1em;
+        overflow-y: scroll;
+        height: 28em;
+    }
+
 .product {
     width: 18em;
     display: inline-block;
@@ -115,7 +133,6 @@ a {
 }
 
     #services ol li {
-        
     }
 
     #services ul li {
