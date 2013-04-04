@@ -158,6 +158,7 @@
     <Content Include="Include\css\style.css" />
     <Content Include="Include\img\arrow.png" />
     <Content Include="Include\img\button_bg.png" />
+    <Content Include="Include\img\content-lines.png" />
     <Content Include="Include\img\convertLogo.png" />
     <Content Include="Include\img\fabric2.png" />
     <Content Include="Include\img\fabric.png" />

@@ -46,7 +46,7 @@
 		<div id="border"></div>
 	</div>
 	<div id="content">
-		<div id="breadcrumb">
+		<div id="breadcrumb" class="wrapper">
 			<a href="/">Root</a> &raquo;
 	@{
 		if (ViewBag.Subpage != null)
@@ -72,6 +72,7 @@
 		</div>
 	</div>
 	<div id="footer">
+        <div id="footBorder"></div>
 		@Data.Content.Pages["Footer"].Contents["About"].HtmlValue&nbsp;
 	</div>
 </body>
