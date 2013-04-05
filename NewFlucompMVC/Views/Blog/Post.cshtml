@@ -3,9 +3,9 @@
     <div class="info">
         <span class="postTitle">@Model.Title</span>
         <br />
-        <span class="postInfo">@Model.DatePosted.ToString("f") - @Model.Author</span>
+        <span class="postInfo">@Model.DatePosted.ToString("f") &ndash; @Model.Author</span>
     </div>
     <div class="postContent">
-        @Model.Contents
+        @Html.Raw(@Model.Contents)
     </div>
 </div>

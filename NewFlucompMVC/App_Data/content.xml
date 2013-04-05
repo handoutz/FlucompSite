@@ -40,7 +40,12 @@ engineers be more productive at their job.
   <Page Name="Products">
     <Product>
       <Name>AbiConvert</Name>
-      <Description>A unit converter designed by and for engineers in all fields.</Description>
+      <Description>
+        <![CDATA[
+        <p>Convert the units you need as an engineer, in an easy-to-use interface. </p>
+        <p>New units are added often, send us an <a href="mailto:inbox@flucomp.com">email</a> if you think we're missing something!</p>
+        ]]>
+      </Description>
       <Link>~/AbiConvert</Link>
       <Picture>~/Include/img/convertLogo.png</Picture>
     </Product>
@@ -221,12 +226,13 @@ engineers be more productive at their job.
       <Position>President/CEO, Consultant</Position>
       <Title>Founder</Title>
       <Biography>
-        <![CDATA[Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
+        <![CDATA[
+        <p>Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
 				peer reviewed conference presentations. She has also written articles on Research and Development, Project 
 				Management, Process and Asset Engineering. During her tenure she developed custom engineering software 
-				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.<br />
-				Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
-				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.]]>
+				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.</p>
+				<p>Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
+				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.</p>]]>
       </Biography>
       <Picture>~/Include/img/pic/diana_actual.png</Picture>
       <Email>dmatonis@flucomp.com</Email>

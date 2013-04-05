@@ -14,10 +14,13 @@
                     <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
                     @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
                {
-                   Author = "Vince",
-                   Contents = "Hello!",
-                   DatePosted = DateTime.Now,
-                   Title = "Hello, world!"
+                   Author = "Vince Matonis",
+                   Title = "Status Update",
+                   Contents = "<p>We are currently working on website improvements, and a complete re-write of AbiConvert"+
+                   " to be more user-friendly and make it easier for us to add new conversions.</p>"+
+                   "<p>We have been very busy behind-the-scenes. More updates to come soon!</p>",
+                   DatePosted = DateTime.Parse("Friday, April 5, 2013 1:15 PM")
+                   
                });}
                 </td>
                 <td class="right">
