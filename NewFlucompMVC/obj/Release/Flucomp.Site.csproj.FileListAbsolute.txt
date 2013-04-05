@@ -25,3 +25,30 @@ C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC
 C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\obj\Release\NewFlucompMVC.pdb
 C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\obj\Release\Flucomp.Site.csprojResolveAssemblyReference.cache
 C:\Users\Vince\Documents\Visual Studio 2012\Projects\NewFlucompMVC\NewFlucompMVC\bin\System.Web.Extensions.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\NewFlucompMVC.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\NewFlucompMVC.pdb
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Abstractions.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.ApplicationServices.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.DynamicData.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Entity.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Extensions.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Helpers.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Mvc.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Razor.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Routing.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Services.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPages.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Mvc.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Razor.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPages.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.Helpers.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\obj\Release\Flucomp.Site.csprojResolveAssemblyReference.cache
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\obj\Release\NewFlucompMVC.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\obj\Release\NewFlucompMVC.pdb

@@ -12,6 +12,7 @@ String.prototype.trim = function () {
 	return this.replace(/^\s+|\s+$/g, "");
 };
 $(function () {
+    $("#contentInner").mCustomScrollbar();
 	/*$(".scriptEnabled").show();
 	$(".navTab").click(function (event) {
 		//$(".selected").removeClass('selected').css('background-color', 'transparent').addClass("notSelected");

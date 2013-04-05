@@ -155,6 +155,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Include\css\fc_new_logo.png" />
     <Content Include="Include\css\home.css" />
+    <Content Include="Include\css\jquery.mCustomScrollbar.css" />
     <Content Include="Include\css\style.css" />
     <Content Include="Include\img\arrow.png" />
     <Content Include="Include\img\button_bg.png" />
@@ -165,6 +166,7 @@
     <Content Include="Include\img\fc_new_logo.png" />
     <Content Include="Include\img\icon\google_plus.png" />
     <Content Include="Include\img\icon\twitter.png" />
+    <Content Include="Include\img\mCSB_buttons.png" />
     <Content Include="Include\img\pic\diana_actual.png" />
     <Content Include="Include\img\gallery_none.png" />
     <Content Include="Include\img\icon\email.png" />
@@ -174,6 +176,7 @@
     <Content Include="Include\img\pic\diana.jpg" />
     <Content Include="Include\img\pic\vince_new.png" />
     <Content Include="Include\img\pic\vince.jpg" />
+    <Content Include="Include\img\pic\vince_new_4_4.png" />
     <Content Include="Include\img\rust.png" />
     <Content Include="Include\img\stripe_body.png" />
     <Content Include="Include\img\stripe_footer.png" />
@@ -186,6 +189,7 @@
     <Content Include="Include\js\Firebug-vsdoc.js" />
     <Content Include="Include\js\home.js" />
     <Content Include="Include\js\jquery-1.7.2-vsdoc.js" />
+    <Content Include="Include\js\jquery.mCustomScrollbar.concat.min.js" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
     <Content Include="Scripts\jquery-1.5.1.min.js" />
@@ -241,6 +245,7 @@
       <DependentUpon>content.xsd</DependentUpon>
     </None>
     <None Include="Properties\PublishProfiles\Default Settings %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Default Settings %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Properties\PublishProfiles\Flucomp.pubxml" />
     <Content Include="Views\Shared\PageTitle.cshtml" />

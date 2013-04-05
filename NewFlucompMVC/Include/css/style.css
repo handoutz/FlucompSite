@@ -91,7 +91,6 @@ a {
     #navigation .selected a {
         /*color: #c1ddff;*/
         color: #ffc276;
-        font-weight: bold;
     }
 
     #navigation .notSelected {
@@ -104,7 +103,7 @@ a {
 
     #content #contentInner {
         margin-top: -1em;
-        overflow-y: scroll;
+        
         height: 28em;
     }
 
@@ -180,7 +179,7 @@ a {
 }
 
     .aboutPerson img.profile {
-        width: 128px;
+        width: 96px;
         height: 128px;
     }
 
@@ -191,7 +190,7 @@ a {
     .aboutPerson .profilepicWrap {
         margin: 0.25em;
         padding: 0.25em;
-        width: 128px;
+        width: 96px;
         height: 128px;
         border: solid 1px #7a5c37;
         -moz-box-shadow: 0 0 5px rgba(50,50,50,0.5);
