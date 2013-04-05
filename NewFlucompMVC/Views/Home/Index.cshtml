@@ -1,11 +1,29 @@
 ﻿@{
-	ViewBag.Title = "Home";
-	Layout = ViewBag.GetLayout();
-	ViewBag.ShowSidebar = false;
+    ViewBag.Title = "Home";
+    Layout = ViewBag.GetLayout();
+    ViewBag.ShowSidebar = false;
 }
 @{
-	Html.RenderPartial("PageTitle");
+    Html.RenderPartial("PageTitle");
 }
 <div id="home" class="contentInner page">
-	@Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+    <table class="grid2">
+        <tbody>
+            <tr>
+                <td class="left">
+                    <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
+                    @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
+               {
+                   Author = "Vince",
+                   Contents = "Hello!",
+                   DatePosted = DateTime.Now,
+                   Title = "Hello, world!"
+               });}
+                </td>
+                <td class="right">
+                    @Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>

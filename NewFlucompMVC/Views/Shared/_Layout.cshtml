@@ -1,79 +1,79 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>@ViewBag.Title - Flucomp</title>
-    <link rel="stylesheet" href="@Url.Content("~/Include/css/style.css")" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<title>@ViewBag.Title - Flucomp</title>
+	<link rel="stylesheet" href="@Url.Content("~/Include/css/style.css")" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
-    <script src="http://cdn.flucomp.com/scripts/jquery.tools.min.js" type="text/javascript"></script>
-    <script src="@Url.Content("~/Include/js/home.js")" type="text/javascript"></script>
+	<script src="http://cdn.flucomp.com/scripts/jquery.tools.min.js" type="text/javascript"></script>
+	<script src="@Url.Content("~/Include/js/home.js")" type="text/javascript"></script>
 
-    <meta name="description" content="@Data.Content.Global.CompanyDescription" />
-    <meta name="keywords" content="@Data.Content.Global.SEOKeywords" />
-    <meta name="author" content="Vince Matonis" />
-    <meta charset="utf-8" />
+	<meta name="description" content="@Data.Content.Global.CompanyDescription" />
+	<meta name="keywords" content="@Data.Content.Global.SEOKeywords" />
+	<meta name="author" content="Vince Matonis" />
+	<meta charset="utf-8" />
 
-    <script type="text/javascript">
-        curTab = '@ViewBag.Title';
-    </script>
-    <!--Begin Analytics import-->
-    <script type="text/javascript">
+	<script type="text/javascript">
+		curTab = '@ViewBag.Title';
+	</script>
+	<!--Begin Analytics import-->
+	<script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-35747838-1']);
-        _gaq.push(['_setDomainName', 'flucomp.com']);
-        _gaq.push(['_trackPageview']);
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-35747838-1']);
+		_gaq.push(['_setDomainName', 'flucomp.com']);
+		_gaq.push(['_trackPageview']);
 
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
 
-    </script>
-    <!--End Analytics import-->
+	</script>
+	<!--End Analytics import-->
 </head>
 <body>
-    <div id="header">
-        <div id="headerInner" class="wrapper">
-            <div id="banner">
-                <img src="@Url.Content("~/Include/img/logo.png")" alt="FluComp" id="fcLogo"/>
-            </div>
-            <div id="navigation">
-                @{Html.RenderPartial("NavMenu", (NewFlucompMVC.Models.NavigationModel)ViewBag.NavMenu);}
-            </div>
-        </div>
-        <div id="border"></div>
-    </div>
-    <div id="content">
-        <div id="breadcrumb" class="wrapper">
-            <a href="/">Root</a> &raquo;
+	<div id="header">
+		<div id="headerInner" class="wrapper">
+			<div id="banner">
+				<img src="@Url.Content("~/Include/img/logo.png")" alt="FluComp" id="fcLogo"/>
+			</div>
+			<div id="navigation">
+				@{Html.RenderPartial("NavMenu", (NewFlucompMVC.Models.NavigationModel)ViewBag.NavMenu);}
+			</div>
+		</div>
+		<div id="border"></div>
+	</div>
+	<div id="content">
+		<div id="breadcrumb" class="wrapper">
+			<a href="/">Root</a> &raquo;
 	@{
-        if (ViewBag.Subpage != null)
-        {
-        <a href="@Url.Action(Request.RequestContext.RouteData.Values["action"].ToString(), new
-                                                                                               {
-                                                                                                   id = "Index"
-                                                                                               })">@ViewBag.Title</a>
-        @Html.Raw("&raquo;")
-        <a href="@Url.Action(Request.RequestContext.RouteData.Values["action"].ToString(), new
-                                                                                               {
-                                                                                                   id = ViewBag.Subpage
-                                                                                               })">@ViewBag.Subpage</a>
-        }
-        else if (Request.Url != null)
-        {
-        <a href="@Request.Url.AbsoluteUri">@ViewBag.Title</a>
-        }
-    }
-        </div>
-        <div id="contentInner" class="wrapper">
-            @RenderBody()
-        </div>
-    </div>
-    <div id="footer">
-        <div id="footBorder"></div>
-        @Data.Content.Pages["Footer"].Contents["About"].HtmlValue&nbsp;
-    </div>
+		if (ViewBag.Subpage != null)
+		{
+		<a href="@Url.Action(Request.RequestContext.RouteData.Values["action"].ToString(), new
+																							   {
+																								   id = "Index"
+																							   })">@ViewBag.Title</a>
+		@Html.Raw("&raquo;")
+		<a href="@Url.Action(Request.RequestContext.RouteData.Values["action"].ToString(), new
+																							   {
+																								   id = ViewBag.Subpage
+																							   })">@ViewBag.Subpage</a>
+		}
+		else if (Request.Url != null)
+		{
+		<a href="@Request.Url.AbsoluteUri">@ViewBag.Title</a>
+		}
+	}
+		</div>
+		<div id="contentInner" class="wrapper">
+			@RenderBody()
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footBorder"></div>
+		@Data.Content.Pages["Footer"].Contents["About"].HtmlValue&nbsp;
+	</div>
 </body>
 </html>
