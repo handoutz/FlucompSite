@@ -1,11 +1,32 @@
 ﻿@{
-	ViewBag.Title = "Home";
-	Layout = ViewBag.GetLayout();
-	ViewBag.ShowSidebar = false;
+    ViewBag.Title = "Home";
+    Layout = ViewBag.GetLayout();
+    ViewBag.ShowSidebar = false;
 }
 @{
-	Html.RenderPartial("PageTitle");
+    Html.RenderPartial("PageTitle");
 }
 <div id="home" class="contentInner page">
-	@Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+    <table class="grid2">
+        <tbody>
+            <tr>
+                <td class="left">
+                    <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
+                    @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
+               {
+                   Author = "Vince Matonis",
+                   Title = "Status Update",
+                   Contents = "<p>We are currently working on website improvements, and a complete re-write of AbiConvert"+
+                   " to be more user-friendly and make it easier for us to add new conversions.</p>"+
+                   "<p>We have been very busy behind-the-scenes. More updates to come soon!</p>",
+                   DatePosted = DateTime.Parse("Friday, April 5, 2013 1:15 PM")
+                   
+               });}
+                </td>
+                <td class="right">
+                    @Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>

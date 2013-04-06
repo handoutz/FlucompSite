@@ -2,7 +2,9 @@
 <Content>
   <Global>
     <FullCompanyName>Flucomp Enterprises, Inc.</FullCompanyName>
-    <CompanyDescription>Flucomp Enterprises, Inc. has been providing CFD services and programming expertise since 2004.</CompanyDescription>
+    <CompanyDescription>
+      We provide programming expertise, custom software solutions and consulting for engineers of all trades. We help you do the best job you can.
+    </CompanyDescription>
     <SEOKeywords>cfd, computational fluid dynamics, programming, engineering, unit converter, flucomp</SEOKeywords>
   </Global>
   <Page Name="Footer">
@@ -14,25 +16,36 @@
     <Content Name="Summary">
       <![CDATA[
 			<h3>Our Mission</h3>
-			<p>
-				Our mission is to offer quality engineering software to engineers so they can be more productive in their jobs.  
-			</p>
-			<p>
-				We also provide consulting on technical, business and engineering assessments, evaluation and technology improvement and planning. 
-			</p>
-			<p>
-				In order to achieve the best solutions we work side by side with our clients to fully understand and integrate current and new technology, business practices, rules, procedures and workflow, and labor (human capacity).
-			</p>
-			<p>
-				It is to these ends that we provide two branches of services, <a href="/Home/Services/Engineering">engineering consulting</a>
-				and <a href="/Home/Services/Software">software development</a>.
-			</p>]]>
+<p>We strive to provide quality engineering software, with the ultimate goal of helping
+engineers be more productive at their job.
+</p>
+<p>We also provide consultation for technical, business and engineering assessments, 
+    evaluations, technology improvement and planning.
+</p>
+<p>
+    We work side-by-side with our clients to fully understand and integrate current and new
+    technology, business practices, rules, procedures, workflows and human capacity (labor). 
+</p>
+<p>
+    To these ends, we provide two branches of service: 
+    <a href="/Home/Services/Engineering">engineering consultation</a> and
+    <a href="/Home/Services/Software">software development</a>.
+</p>
+]]>
+    </Content>
+    <Content Name="BlogTitle">
+      Updates
     </Content>
   </Page>
   <Page Name="Products">
     <Product>
       <Name>AbiConvert</Name>
-      <Description>A unit converter designed by and for engineers in all fields.</Description>
+      <Description>
+        <![CDATA[
+        <p>Convert the units you need as an engineer, in an easy-to-use interface. </p>
+        <p>New units are added often, send us an <a href="mailto:inbox@flucomp.com">email</a> if you think we're missing something!</p>
+        ]]>
+      </Description>
       <Link>~/AbiConvert</Link>
       <Picture>~/Include/img/convertLogo.png</Picture>
     </Product>
@@ -213,12 +226,13 @@
       <Position>President/CEO, Consultant</Position>
       <Title>Founder</Title>
       <Biography>
-        <![CDATA[Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
+        <![CDATA[
+        <p>Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
 				peer reviewed conference presentations. She has also written articles on Research and Development, Project 
 				Management, Process and Asset Engineering. During her tenure she developed custom engineering software 
-				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.<br />
-				Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
-				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.]]>
+				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.</p>
+				<p>Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
+				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.</p>]]>
       </Biography>
       <Picture>~/Include/img/pic/diana_actual.png</Picture>
       <Email>dmatonis@flucomp.com</Email>

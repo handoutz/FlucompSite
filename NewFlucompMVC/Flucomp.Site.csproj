@@ -156,7 +156,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Include\css\bootstrap.min.css" />
     <Content Include="Include\css\fc_new_logo.png" />
+    <Content Include="Include\css\glyphicons-halflings-white.png" />
+    <Content Include="Include\css\glyphicons-halflings.png" />
     <Content Include="Include\css\home.css" />
     <Content Include="Include\css\jquery.mCustomScrollbar.css" />
     <Content Include="Include\css\style.css" />
@@ -189,6 +192,7 @@
     <Content Include="Include\img\valid_css3_blue.png" />
     <Content Include="Include\img\valid_html5_blue.png" />
     <Content Include="Include\img\warning.png" />
+    <Content Include="Include\js\bootstrap.min.js" />
     <Content Include="Include\js\Firebug-vsdoc.js" />
     <Content Include="Include\js\home.js" />
     <Content Include="Include\js\jquery-1.7.2-vsdoc.js" />

@@ -15,7 +15,7 @@
             <span class="title">@product.Name</span><br />
             <img src="@Url.Content(product.ImageSrc)" /><br />
         </a>
-        <span class="desc">@product.Description</span>
+        <span class="desc">@Html.Raw(product.Description)</span>
     </div>
     }
 }
