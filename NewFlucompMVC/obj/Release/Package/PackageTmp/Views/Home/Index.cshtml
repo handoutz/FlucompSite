@@ -7,24 +7,34 @@
     Html.RenderPartial("PageTitle");
 }
 <div id="home" class="contentInner page">
-    <table class="grid2">
-        <tbody>
-            <tr>
-                <td class="left">
+    <div class="row">
+        <div class="span12">
+            <div class="row">
+                <div class="span8">
                     <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
                     @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
                {
                    Author = "Vince Matonis",
                    Title = "Status Update",
-                   Contents = "<p>We are currently working on website improvements, and a complete re-write of AbiConvert"+
-                   " to be more user-friendly and make it easier for us to add new conversions.</p>"+
+                   Contents = "<p>We are currently working on website improvements, and a complete re-write of AbiConvert" +
+                   " to be more user-friendly and make it easier for us to add new conversions.</p>" +
                    "<p>We have been very busy behind-the-scenes. More updates to come soon!</p>",
                    DatePosted = DateTime.Parse("Friday, April 5, 2013 1:15 PM")
-                   
+
                });}
-                </td>
-                <td class="right">
+                </div>
+                <div class="span4">
                     @Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+                </div>
+            </div>
+        </div>
+    </div>
+    <table class="grid2">
+        <tbody>
+            <tr>
+                <td class="left"></td>
+                <td class="right">
+                    
                 </td>
             </tr>
         </tbody>
