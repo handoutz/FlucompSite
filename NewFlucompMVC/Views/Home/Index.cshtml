@@ -15,6 +15,18 @@
                     @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
                {
                    Author = "Vince Matonis",
+                   Title = "New Version of AbiConvert",
+                   Contents = "<p>This version adds an auto-complete feature which allows you to convert units within a " +
+                   "category without using your mouse. Just type a value, press space, start typing the unit name "+
+                   "and use the arrow keys to select your unit, press enter; repeat for the to unit.</p>"+
+                   "<p>We are adding a batch of new units soon, as well as releasing an alpha version of our Engineering Calculator"+
+                   " (name T.B.D.).</p>",
+                   DatePosted = DateTime.Parse("Wednesday, April 24, 2013 5:00 PM")
+
+               });}
+                    @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
+               {
+                   Author = "Vince Matonis",
                    Title = "Status Update",
                    Contents = "<p>We are currently working on website improvements, and a complete re-write of AbiConvert" +
                    " to be more user-friendly and make it easier for us to add new conversions.</p>" +
@@ -33,9 +45,7 @@
         <tbody>
             <tr>
                 <td class="left"></td>
-                <td class="right">
-                    
-                </td>
+                <td class="right"></td>
             </tr>
         </tbody>
     </table>
