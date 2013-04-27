@@ -12,31 +12,55 @@
             <div class="row">
                 <div class="span7 well">
                     <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
+                    @{
+                        Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
+                        {
+                            Author="Vince Matonis",
+                            Title = "Short Update",
+                            DatePosted = DateTime.Parse("4/27/2013 4:00 PM"),
+                            Contents = "<p>We are making steady progress on the engineering calculator; a prototype version "+
+                            "is scheduled for release on May 1st, 2013.</p><p>"+
+                            "AbiConvert has been updated to include two new categories of units: Heat Capacity/Enthalpy "+
+                            "and Heat-Transfer Coefficients.</p>"
+                        });
+                    }
                     @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
                {
                    Author = "Vince Matonis",
                    Title = "New Version of AbiConvert",
                    Contents = "<p>This version adds an auto-complete feature which allows you to convert units within a " +
-                   "category without using your mouse. Just type a value, press space, start typing the unit name "+
-                   "and use the arrow keys to select your unit, press enter; repeat for the to unit.</p>"+
-                   "<p>We are adding a batch of new units soon, as well as releasing an alpha version of our Engineering Calculator"+
+                   "category without using your mouse. Just type a value, press space, start typing the unit name " +
+                   "and use the arrow keys to select your unit, press enter; repeat for the to unit.</p>" +
+                   "<p>We are adding a batch of new units soon, as well as releasing an alpha version of our Engineering Calculator" +
                    " (name T.B.D.).</p>",
                    DatePosted = DateTime.Parse("Wednesday, April 24, 2013 5:00 PM")
-
-               });}
-                    @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
-               {
-                   Author = "Vince Matonis",
-                   Title = "Status Update",
-                   Contents = "<p>We are currently working on website improvements, and a complete re-write of AbiConvert" +
-                   " to be more user-friendly and make it easier for us to add new conversions.</p>" +
-                   "<p>We have been very busy behind-the-scenes. More updates to come soon!</p>",
-                   DatePosted = DateTime.Parse("Friday, April 5, 2013 1:15 PM")
 
                });}
                 </div>
                 <div class="span4 well">
                     @Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4 well">
+                    <h3>Contact Details</h3>
+                    <p>
+                        Email: @Data.Content.Pages["Contact"].Contents["Email"].HtmlValue
+                    </p>
+                    <p>
+                        Phone: @Data.Content.Pages["Contact"].Contents["Phone"].Value
+                    </p>
+                </div>
+                <div class="span7 well">
+                    <h3>Featured Product</h3>
+                    <div style="display: inline">
+                        <a href="/abiconvert" class="thumbnail" style="width: 12em; height: 10em;">
+                            <img style="width:100%;height:100%" src="@Url.Content("~/Include/img/convertLogo.png")" alt="abiconvert"/>
+                        </a>
+                    </div>
+                    <div style="display: inline">
+                        A unit converter designed by and for engineers. New units added frequently.
+                    </div>
                 </div>
             </div>
         </div>

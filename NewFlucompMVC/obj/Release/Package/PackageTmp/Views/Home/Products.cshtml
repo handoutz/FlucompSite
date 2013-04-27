@@ -10,7 +10,7 @@
 @{
     foreach (var product in Model.Products)
     { 
-    <div class="product">
+    <div class="product well">
         <a href="@product.Url">
             <span class="title">@product.Name</span><br />
             <img src="@Url.Content(product.ImageSrc)" /><br />
