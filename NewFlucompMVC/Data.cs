@@ -11,46 +11,46 @@ using System.Diagnostics;
 
 public static class Data
 {
-    private static Content _con;
-    public static Content Content
-    {
-        get
-        {
-            if ((HttpContext.Current.Request.Params["debug"] ?? "not") == "yes")
-                _con = null;
-            if (_con == null)
-                Data.LoadContent(System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/content.xml"));
-            return _con;
-        }
-    }
+	private static Content _con;
+	public static Content Content
+	{
+		get
+		{
+			if ((HttpContext.Current.Request.Params["debug"] ?? "not") == "yes")
+				_con = null;
+			if (_con == null)
+				Data.LoadContent(System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/content.xml"));
+			return _con;
+		}
+	}
 
-    public delegate string ReplacementDelegate();
+	public delegate string ReplacementDelegate();
 
-    public static Dictionary<string, ReplacementDelegate> Replacements = new Dictionary<string, ReplacementDelegate>()
+	public static Dictionary<string, ReplacementDelegate> Replacements = new Dictionary<string, ReplacementDelegate>()
 																			 {
-																				 {"{appversion}", () => "v0.2.1-Beta"}
+																				 {"{appversion}", () => "v0.2.2-Beta"}
 																			 };
-    public static string ReplaceThings(string input)
-    {
-        return Replacements.Aggregate(input, (current, kvp) => current.Replace(kvp.Key, kvp.Value()));
-    }
-    public static void LoadContent(string path)
-    {
-        if (_con != null) return;
-        try
-        {
-            using (var fso = File.OpenRead(path))
-            using (var read = new StreamReader(fso))
-            {
-                var serial = new XmlSerializer(typeof(Content), "");
-                _con = serial.Deserialize(read) as Content;
-            }
-        }
-        catch (Exception ex)
-        {
-            if (ex.InnerException != null)
-                throw new Exception(ex.InnerException.StackTrace);
-            throw new Exception(ex.GetType().Name);
-        }
-    }
+	public static string ReplaceThings(string input)
+	{
+		return Replacements.Aggregate(input, (current, kvp) => current.Replace(kvp.Key, kvp.Value()));
+	}
+	public static void LoadContent(string path)
+	{
+		if (_con != null) return;
+		try
+		{
+			using (var fso = File.OpenRead(path))
+			using (var read = new StreamReader(fso))
+			{
+				var serial = new XmlSerializer(typeof(Content), "");
+				_con = serial.Deserialize(read) as Content;
+			}
+		}
+		catch (Exception ex)
+		{
+			if (ex.InnerException != null)
+				throw new Exception(ex.InnerException.StackTrace);
+			throw new Exception(ex.GetType().Name);
+		}
+	}
 }

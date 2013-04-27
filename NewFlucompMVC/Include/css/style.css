@@ -99,13 +99,12 @@ a {
     margin-top: 1em;
     padding: 1em;
     background: black url(../img/content-lines.png) repeat;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 
     #content #contentInner {
         margin-top: -1em;
         min-height: 28em;
-        max-height: 32em;
     }
 
     #content p {

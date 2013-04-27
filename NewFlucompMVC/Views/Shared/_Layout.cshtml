@@ -3,6 +3,7 @@
 <head>
 	<title>@ViewBag.Title - Flucomp</title>
 	<link href="@Url.Content("~/Include/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Include/css/bootstrap-responsive.min.css")" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="@Url.Content("~/Include/css/style.css")" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
 
@@ -47,7 +48,7 @@
 		<div id="border"></div>
 	</div>
 	<div id="content">
-		<div id="breadcrumb" class="wrapper">
+		<div id="breadcrumb" class="container">
 			<a href="/">Root</a> &raquo;
 	@{
 		if (ViewBag.Subpage != null)

@@ -10,7 +10,7 @@
     <div class="row">
         <div class="span12">
             <div class="row">
-                <div class="span8">
+                <div class="span7 well">
                     <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
                     @{Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
                {
@@ -35,18 +35,10 @@
 
                });}
                 </div>
-                <div class="span4">
+                <div class="span4 well">
                     @Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)
                 </div>
             </div>
         </div>
     </div>
-    <table class="grid2">
-        <tbody>
-            <tr>
-                <td class="left"></td>
-                <td class="right"></td>
-            </tr>
-        </tbody>
-    </table>
 </div>
