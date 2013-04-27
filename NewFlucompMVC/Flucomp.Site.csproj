@@ -156,6 +156,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Include\css\bootstrap-responsive.min.css" />
     <Content Include="Include\css\bootstrap.min.css" />
     <Content Include="Include\css\fc_new_logo.png" />
     <Content Include="Include\css\glyphicons-halflings-white.png" />
