@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Content>
-	<Global>
-		<FullCompanyName>Flucomp Enterprises, Inc.</FullCompanyName>
-		<CompanyDescription>
-			We provide programming expertise, custom software solutions and consulting for engineers of all trades. We help you do the best job you can.
-		</CompanyDescription>
-		<SEOKeywords>cfd, computational fluid dynamics, programming, engineering, unit converter, flucomp</SEOKeywords>
-	</Global>
-	<Page Name="Footer">
-		<Content Name="About">
-			<![CDATA[Copyright &copy; 2012-2013 Flucomp Enterprises, Inc.&nbsp;&nbsp;{appversion}&nbsp;]]>
-		</Content>
-	</Page>
-	<Page Name="Home">
-		<Content Name="Summary">
-			<![CDATA[
+  <Global>
+    <FullCompanyName>Flucomp Enterprises, Inc.</FullCompanyName>
+    <CompanyDescription>
+      We provide programming expertise, custom software solutions and consulting for engineers of all trades. We help you do the best job you can.
+    </CompanyDescription>
+    <SEOKeywords>cfd, computational fluid dynamics, programming, engineering, unit converter, flucomp</SEOKeywords>
+  </Global>
+  <Page Name="Footer">
+    <Content Name="About">
+      <![CDATA[Copyright &copy; 2012-2013 Flucomp Enterprises, Inc.&nbsp;&nbsp;{appversion}&nbsp;]]>
+    </Content>
+  </Page>
+  <Page Name="Home">
+    <Content Name="Summary">
+      <![CDATA[
 			<h3>Our Mission</h3>
 <p>We strive to provide quality engineering software, with the ultimate goal of helping
 engineers be more productive at their job.
@@ -32,27 +32,38 @@ engineers be more productive at their job.
 		<a href="/Home/Services/Software">software development</a>.
 </p>
 ]]>
-		</Content>
-		<Content Name="BlogTitle">
-			Updates
-		</Content>
-	</Page>
-	<Page Name="Products">
-		<Product>
-			<Name>AbiConvert</Name>
-			<Description>
-				<![CDATA[
+    </Content>
+    <Content Name="BlogTitle">
+      Updates
+    </Content>
+  </Page>
+  <Page Name="Products">
+    <Product>
+      <Name>AbiConvert</Name>
+      <Description>
+        <![CDATA[
 				<p>Convert the units you need as an engineer, in an easy-to-use interface. </p>
 				<p>New units are added often, send us an <a href="mailto:inbox@flucomp.com">email</a> if you think we're missing something!</p>
 				]]>
-			</Description>
-			<Link>~/AbiConvert</Link>
-			<Picture>~/Include/img/convertLogo.png</Picture>
-		</Product>
-	</Page>
-	<Page Name="Services">
-		<Content Name="Index">
-			<![CDATA[
+      </Description>
+      <Link>~/AbiConvert</Link>
+      <Picture>~/Include/img/convertLogo.png</Picture>
+    </Product>
+    <Product>
+      <Name>EngiCalc ALPHA</Name>
+      <Description>
+        <![CDATA[
+        <p>Currently provides calculations for polyethylene piping. Calculations currently not tested or checked, <b>do not use for real-world applications</b>.</p> 
+        <p>Future updates will add more and more categories, check back often.</p>
+        ]]>
+      </Description>
+      <Link>http://cdn.flucomp.com/deploy/setup-engicalc-0.1.0.exe</Link>
+      <Picture>~/Include/img/engicalc.png</Picture>
+    </Product>
+  </Page>
+  <Page Name="Services">
+    <Content Name="Index">
+      <![CDATA[
 				<h3>Our Services</h3>
 				<table id="service_table">
 					<tbody>
@@ -89,9 +100,9 @@ engineers be more productive at their job.
 						</tr>
 					</tbody>
 				</table>]]>
-		</Content>
-		<Content Name="Engineering">
-			<![CDATA[
+    </Content>
+    <Content Name="Engineering">
+      <![CDATA[
 			<h3>Engineering Consultancy</h3>
 			<p>
 				Flucomp was founded by Dr. Diana Matonis, a leader in her industry for more than 25 years. Our engineering consultancy
@@ -138,9 +149,9 @@ engineers be more productive at their job.
 					</ul>
 				</li>
 			</ol>]]>
-		</Content>
-		<Content Name="Software">
-			<![CDATA[
+    </Content>
+    <Content Name="Software">
+      <![CDATA[
 <h3>Software Development Services</h3>
 		<p>
 			Our team has more than 30 combined years of experience in software development.
@@ -187,75 +198,75 @@ engineers be more productive at their job.
 			Email us now for a quote: <a href="mailto:vmatonis@flucomp.com">vmatonis@flucomp.com</a>.
 		</p>
 ]]>
-		</Content>
-		<Content Name="Placeholder">
-			<![CDATA[[Placeholder for content]]]>
-		</Content>
-	</Page>
-	<Page Name="AboutUs">
-		<Content Name="Placeholder">
-			<![CDATA[[Placeholder for content]]]>
-		</Content>
-	</Page>
-	<Page Name="Contact">
-		<Content Name="Email">
-			<![CDATA[<a href="mailto:inbox@flucomp.com">inbox@flucomp.com</a>]]>
-		</Content>
-		<Content Name="Phone">(708) 529-8725</Content>
-		<Content Name="Twitter">
-			<![CDATA[
+    </Content>
+    <Content Name="Placeholder">
+      <![CDATA[[Placeholder for content]]]>
+    </Content>
+  </Page>
+  <Page Name="AboutUs">
+    <Content Name="Placeholder">
+      <![CDATA[[Placeholder for content]]]>
+    </Content>
+  </Page>
+  <Page Name="Contact">
+    <Content Name="Email">
+      <![CDATA[<a href="mailto:inbox@flucomp.com">inbox@flucomp.com</a>]]>
+    </Content>
+    <Content Name="Phone">(708) 529-8725</Content>
+    <Content Name="Twitter">
+      <![CDATA[
 			Follow us on Twitter: <a href="http://twitter.com/flucomp" target="_blank">@flucomp</a>
 			]]>
-		</Content>
-		<Content Name="GooglePlus">
-			<![CDATA[
+    </Content>
+    <Content Name="GooglePlus">
+      <![CDATA[
 			Add us to your circles on Google Plus: <a href="https://plus.google.com/100714296740064629468" target="_blank">Flucomp Enterprises, Inc.</a>
 			]]>
-			<!--logo attributed to Alice Olivier: http://www.vectorfree.com/g-logo-pack -->
-		</Content>
-		<Content Name="Manta">
-			<![CDATA[<a href="http://www.manta.com/c/mml63m0/flucomp-enterprises-inc" target="_blank">
+      <!--logo attributed to Alice Olivier: http://www.vectorfree.com/g-logo-pack -->
+    </Content>
+    <Content Name="Manta">
+      <![CDATA[<a href="http://www.manta.com/c/mml63m0/flucomp-enterprises-inc" target="_blank">
 				<img src="http://www.manta.com/manta/images/mantaBadge_md.png" height="32" width="80" border="0" />
 			</a>]]>
-		</Content>
-	</Page>
-	<Page Name="Staff">
-		<Person>
-			<Name>Dr. Diana Matonis</Name>
-			<Experience>25 years</Experience>
-			<Position>President/CEO, Consultant</Position>
-			<Title>Founder</Title>
-			<Biography>
-				<![CDATA[
+    </Content>
+  </Page>
+  <Page Name="Staff">
+    <Person>
+      <Name>Dr. Diana Matonis</Name>
+      <Experience>25 years</Experience>
+      <Position>President/CEO, Consultant</Position>
+      <Title>Founder</Title>
+      <Biography>
+        <![CDATA[
 				<p>Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
 				peer reviewed conference presentations. She has also written articles on Research and Development, Project 
 				Management, Process and Asset Engineering. During her tenure she developed custom engineering software 
 				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.</p>
 				<p>Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
 				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.</p>]]>
-			</Biography>
-			<Picture>~/Include/img/pic/diana_actual.png</Picture>
-			<Email>dmatonis@flucomp.com</Email>
-			<FullBioLink>https://www.linkedin.com/in/matonis/</FullBioLink>
-		</Person>
-		<Person>
-			<Name>Vince Matonis</Name>
-			<Experience>6 years</Experience>
-			<Position>Software Engineer, Systems Administrator, Consultant</Position>
-			<Title>IT Director</Title>
-			<Biography>
-				<![CDATA[Software Developer for 6 years. <br />
+      </Biography>
+      <Picture>~/Include/img/pic/diana_actual.png</Picture>
+      <Email>dmatonis@flucomp.com</Email>
+      <FullBioLink>https://www.linkedin.com/in/matonis/</FullBioLink>
+    </Person>
+    <Person>
+      <Name>Vince Matonis</Name>
+      <Experience>6 years</Experience>
+      <Position>Software Engineer, Systems Administrator, Consultant</Position>
+      <Title>IT Director</Title>
+      <Biography>
+        <![CDATA[Software Developer for 6 years. <br />
 				Programming experience: C#, C/C++, Java <br />
 				Web Development experience: ASP.NET/C#, PHP/MySQL, HTML4&amp;HTML5, CSS2&amp;CSS3, JavaScript, jQuery]]>
-			</Biography>
-			<Picture>~/Include/img/pic/vince_new_4_4.png</Picture>
-			<Email>vmatonis@flucomp.com</Email>
-			<FullBioLink>https://www.linkedin.com/in/vmatonis/</FullBioLink>
-		</Person>
-	</Page>
-	<Page Name="Portfolio">
-		<Content Name="Index">
-			<![CDATA[<h3>Examples of our Work</h3>
+      </Biography>
+      <Picture>~/Include/img/pic/vince_new_4_4.png</Picture>
+      <Email>vmatonis@flucomp.com</Email>
+      <FullBioLink>https://www.linkedin.com/in/vmatonis/</FullBioLink>
+    </Person>
+  </Page>
+  <Page Name="Portfolio">
+    <Content Name="Index">
+      <![CDATA[<h3>Examples of our Work</h3>
 		<table id="portfolio_index">
 			<tbody>
 				<tr>
@@ -289,6 +300,6 @@ engineers be more productive at their job.
 				</tr>
 			</tbody>
 		</table>]]>
-		</Content>
-	</Page>
+    </Content>
+  </Page>
 </Content>

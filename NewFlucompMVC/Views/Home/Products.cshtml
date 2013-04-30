@@ -7,15 +7,17 @@
 @{
     Html.RenderPartial("PageTitle");
 }
-@{
-    foreach (var product in Model.Products)
-    { 
-    <div class="product well">
-        <a href="@product.Url">
-            <span class="title">@product.Name</span><br />
-            <img src="@Url.Content(product.ImageSrc)" /><br />
-        </a>
-        <span class="desc">@Html.Raw(product.Description)</span>
-    </div>
+<div class="row-fluid">
+    @{
+        foreach (var product in Model.Products)
+        { 
+        <div class="product well span3">
+            <a href="@product.Url">
+                <span class="title">@product.Name</span><br />
+                <img src="@Url.Content(product.ImageSrc)" class="productImg"/><br />
+            </a>
+            <span class="desc">@Html.Raw(product.Description)</span>
+        </div>
+        }
     }
-}
+</div>

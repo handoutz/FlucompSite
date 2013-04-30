@@ -62,9 +62,10 @@ namespace NewFlucompMVC.Controllers
 		public ActionResult Index()
 		{
 			InitViewbag();
+            ViewBag.FeaturedProduct = CreateProductModel().Products[1];
 			return GetView("Index");
 		}
-		private ProductModel CreateProductModel()
+		public ProductModel CreateProductModel()
 		{
 			var model = new ProductModel();
 			var blank = c("~/Include/img/gallery_none.png");
