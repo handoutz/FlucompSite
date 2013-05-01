@@ -16,22 +16,23 @@
     <Content Name="Summary">
       <![CDATA[
 			<h3>Our Mission</h3>
-<p>We strive to provide quality engineering software, with the ultimate goal of helping
-engineers be more productive at their job.
-</p>
-<p>We also provide consultation for technical, business and engineering assessments, 
-		evaluations, technology improvement and planning.
-</p>
-<p>
-		We work side-by-side with our clients to fully understand and integrate current and new
-		technology, business practices, rules, procedures, workflows and human capacity (labor). 
-</p>
-<p>
-		To these ends, we provide two branches of service: 
-		<a href="/Home/Services/Engineering">engineering consultation</a> and
-		<a href="/Home/Services/Software">software development</a>.
+<p>As our customer’s advocate we provide cost-effective, long lasting design and solutions in market and technology intelligence spanning 
+the Oil & Natural Gas Value Chain and Bio-renewable markets for companies, private investors and research assisting decision makers define strategies.
 </p>
 ]]>
+    </Content>
+    <Content Name="Focus">
+      <![CDATA[
+      <h3>Our Focus</h3>
+      <p>Designed as a partnership with our clients we address multi-client research needs with objective data and analyses. 
+      Our primary focus has been in the complex Oil & Natural Gas Value Chain with near term and long term profitability dependency on 
+      multiple markets – upstream production, refined products to petrochemical feedstock, power and gas liquids. Our expertise has been 
+      a foundational level integration of the technology, research, rapid commercialization of new technologies, engineering and market 
+      understanding of the Natural Gas and NGL business to provide our clients a base to build on. We go beyond this in recognizing that” 
+      learning to fish is better than giving you the fish” by assisting our clients through onsite training to understand how to build 
+      these models and which metrics to rely on more for investment; becoming critical of results and knowing the right questions to ask 
+      is the foundation for success.</p>
+      ]]>
     </Content>
     <Content Name="BlogTitle">
       Updates
@@ -50,11 +51,13 @@ engineers be more productive at their job.
       <Picture>~/Include/img/convertLogo.png</Picture>
     </Product>
     <Product>
-      <Name>EngiCalc ALPHA</Name>
+      <Name>PipeEngicalc ALPHA</Name>
       <Description>
         <![CDATA[
-        <p>Currently provides calculations for polyethylene piping. Calculations currently not tested or checked, <b>do not use for real-world applications</b>.</p> 
-        <p>Future updates will add more and more categories, check back often.</p>
+        <p><b>PipeEngicalc</b> is a comprehensive mechanical pipeline analysis software, which assists with design, analysis, calculations and troubleshooting
+        of piping systems; saving time and minimizing operating costs. This is an alpha version for polypropylene pipelines with Steel grades coming soon.</p>
+        <p>You are invited to download the fully functional test version of PipeEngicalc now! We truly welcome and appreciate feedback on specific features, 
+        and what you would like to see added to this program. We especially appreciate feedback on bugs and errors encountered while using this application.</p>
         ]]>
       </Description>
       <Link>http://cdn.flucomp.com/deploy/setup-engicalc-0.1.0.exe</Link>
@@ -65,41 +68,34 @@ engineers be more productive at their job.
     <Content Name="Index">
       <![CDATA[
 				<h3>Our Services</h3>
-				<table id="service_table">
-					<tbody>
-						<tr>
-							<td class="service_title">
-								<a href="/Home/Services/Engineering">Engineering</a>
-							</td>
-							<td class="service_desc">
-								<p>
-									Independent consulting in the fields of plant optimization and economics, chemical analyses 
-									and process development with an initial pro-forma analysis, new development of processes, 
-									technology training and research assistance.
-								</p>
-								<p>
-									Our practice also includes plant assessments through process engineering and design,
-									providing necessary insights to improve current efficiency and product yields in existing plants,
-									expansions, integration of new plant processes and startups.
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td class="service_title">
-								<a href="/Home/Services/Software">Software</a>
-							</td>
-							<td class="service_desc">
-								<p>
-									Custom software development services, for businesses and engineers alike.
-								</p>
-								<p>
-									We can work with your current software by integrating legacy software, or provide you with total new software
-									solutions.
-								</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>]]>
+        <h4>Engineering and Technical Operational Consulting Services</h4>
+        <p>
+            These are related to plant technical operations, optimization and engineering aspects of the business: 
+            assets/hardware rather than the commercial aspects of the business. Example services that may be performed are 
+            plant optimization studies, environmental compliance reviews, troubleshooting or “plant triage”, assistance with 
+            equipment sizing, advising vendors on marketing plans or product.
+        </p>
+        <h4>Assistance with Vendors</h4>
+        <p>
+            As projects move through the Front End Engineering Design Process (FEED) or Front End Loaded (FEL) RFQ/RFP are required. 
+            We can assist not only in in putting together the RFPs but also in vendor vetting. 
+            This is an important process, because some vendors will try to fit the bid specs or requirements around and into their products.
+        </p>
+        <h4>Economic Feasibility Studies and Financial Estimates of Capital and Operating Costs</h4>
+        <p>
+            During technical consulting services, it is often required to create pro forma estimates of plant construction costs, 
+            or other financial estimates, that are typically used in final investment decisions to proceed or not to proceed.
+        </p>
+        <h4>Engineering Software Applications and IT Consulting Services</h4>
+        <p>
+            Flucomp's Founder, Dr. Diana Matonis, has created engineering and design software tools, which are used around the world on projects
+            arnging from GHG plant emissions calculators, small retrofits of existing facilities to large, green-field facilities, whether on land 
+            or sea by major multi-national Oil &amp; Gas corporations.
+        </p>
+        <p>
+            We continue our founder's original focus in developing customer-specific and customized computer software and tools that deliver
+            high individual and corporate-wide technical know-how and productivity regardless of the systems used.
+        </p>]]>
     </Content>
     <Content Name="Engineering">
       <![CDATA[
@@ -238,12 +234,20 @@ engineers be more productive at their job.
       <Title>Founder</Title>
       <Biography>
         <![CDATA[
-				<p>Dr. Matonis has 25 years of experience in the energy industry, including corporate invitations and 
-				peer reviewed conference presentations. She has also written articles on Research and Development, Project 
-				Management, Process and Asset Engineering. During her tenure she developed custom engineering software 
-				solutions spanning the Oil & Natural Gas, Renewables, Biofuels and Power industries.</p>
-				<p>Dr. Matonis holds a Doctorate in Chemical Engineering in Computational Fluid Dynamics from the Illinois Institute
-				of Technology, as well as an MBA from the University of Illinois at Urbana-Champaign.</p>]]>
+				<p>
+            <b>Reputation</b> 20-year track record of growing revenues, improving operations and managing/developing strategies to capture value in
+            arrived solutions. I also formed and led Global Chemical Manufacturers and Oil &amp; Gas Joint Industry Partnerships.
+            My work in Natural Gas Pipeline modeling has been globally recognized; I have been an internationally-invited presenter in peer-reviewed
+            conferences and global Chemical Manufacturer and Oil &amp; Gas private corporate invitations, saving each company a 15-20% chemical cost per
+            month savings.
+        </p>
+        <p>
+            <b>Specialties</b> Energy Project Development / Management, Operations / Asset Management, economic analysis, 
+            competitive analysis, statistical analysis, project management, financial analysis, business strategy, strategic planning, 
+            new technology development, managing budgets determining headcount requirements, working with contractors, 
+            writing technical specifications, developing software tools, working with suppliers and reviewing supplier designs, 
+            diagnosing customer equipment, working with production on problem solving and trouble shooting, and developing detailed test programs.
+        </p>]]>
       </Biography>
       <Picture>~/Include/img/pic/diana_actual.png</Picture>
       <Email>dmatonis@flucomp.com</Email>

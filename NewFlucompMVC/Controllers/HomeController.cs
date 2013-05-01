@@ -43,6 +43,7 @@ namespace NewFlucompMVC.Controllers
 		}
 		public ActionResult ContentWriter()
 		{
+            InitViewbag();
 			return View("ContentWriter");
 		}
 		private ActionResult GetView(string name, object model = null)
