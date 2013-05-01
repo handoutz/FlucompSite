@@ -13,6 +13,9 @@
                 <div class="span9">
                     <div class="well">@Html.Raw(Data.Content.Pages["Home"].Contents["Summary"].Value)</div>
                     <div class="well">
+                        @Data.Content.Pages["Home"].Contents["Focus"].HtmlValue
+                    </div>
+                    <div class="well">
                         <h3>@Data.Content.Pages["Home"].Contents["BlogTitle"].Value</h3>
                         @{
                             Html.RenderPartial("~/Views/Blog/Post.cshtml", new NewFlucompMVC.Models.PostModel()
@@ -20,7 +23,7 @@
                                 Author = "Vince Matonis",
                                 Title = "EngiCalc Alpha Release",
                                 DatePosted = DateTime.Parse("4/30/2013 1:00 PM"),
-                                Contents = "<p>The public alpha version of EngiCalc has been released! Download it <a href='http://cdn.flucomp.com/deploy/setup-engicalc-0.1.0.exe'>here</a>.</p><p>" +
+                                Contents = "<p>The public alpha version of EngiCalc has been released! Download it <a href='#'>here</a>.</p><p>" +
                                 "Please note that this is only a prototype and currently should not be used in real-world applications.</p>" +
                                 "<p>If you run into any glitches, errors, bugs, or have any ideas for features or improvements, email us at <a href='mailto:inbox@flucomp.com'>inbox@flucomp.com</a></p>"
                             });

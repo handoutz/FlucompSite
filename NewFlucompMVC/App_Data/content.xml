@@ -24,14 +24,16 @@ the Oil & Natural Gas Value Chain and Bio-renewable markets for companies, priva
     <Content Name="Focus">
       <![CDATA[
       <h3>Our Focus</h3>
-      <p>Designed as a partnership with our clients we address multi-client research needs with objective data and analyses. 
-      Our primary focus has been in the complex Oil & Natural Gas Value Chain with near term and long term profitability dependency on 
-      multiple markets – upstream production, refined products to petrochemical feedstock, power and gas liquids. Our expertise has been 
-      a foundational level integration of the technology, research, rapid commercialization of new technologies, engineering and market 
-      understanding of the Natural Gas and NGL business to provide our clients a base to build on. We go beyond this in recognizing that” 
-      learning to fish is better than giving you the fish” by assisting our clients through onsite training to understand how to build 
-      these models and which metrics to rely on more for investment; becoming critical of results and knowing the right questions to ask 
-      is the foundation for success.</p>
+        <p>
+            We strive to work as partners with our clients, to best address multi-client research needs with objective data and analyses.
+            Our primary focus has been in the complex Oil &amp; Natural Gas Value Chain with near-term and long-term profitability dependent
+            on multiple markets &ndash; upstream production, refined products to petrochemical feedstock, power and gas liquids. Our expertise
+            has been a foundational-level integration of the technology, research, rapid commercialization of new technology, engineering and understanding
+            of the Natural Gas and NGL market to provide our clients with a base to build upon. We go beyond this in recognizing that
+            &ldquo;learning to fish is far better than merely giving you the fish&rdquo; by assisting our clients through on-site training to
+            understand how to build these models and which metrics to rely on for investment; becoming critical of results and knowing the right questions
+            to ask is the foundation of success.
+        </p>
       ]]>
     </Content>
     <Content Name="BlogTitle">
@@ -60,7 +62,8 @@ the Oil & Natural Gas Value Chain and Bio-renewable markets for companies, priva
         and what you would like to see added to this program. We especially appreciate feedback on bugs and errors encountered while using this application.</p>
         ]]>
       </Description>
-      <Link>http://cdn.flucomp.com/deploy/setup-engicalc-0.1.0.exe</Link>
+      <!--<Link>http://cdn.flucomp.com/deploy/setup-engicalc-0.1.0.exe</Link>-->
+      <Link>#</Link>
       <Picture>~/Include/img/engicalc.png</Picture>
     </Product>
   </Page>

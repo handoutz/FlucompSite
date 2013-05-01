@@ -20,7 +20,7 @@ namespace NewFlucompMVC.Controllers
 				menu.Links.Add(new Models.NavigationModel.Link() { Text = "Services", Url = Url.Action("Services") });
 				//menu.Links.Add(new Models.NavigationModel.Link() { Text = "About Us", Url = Url.Action("About") });
 				menu.Links.Add(new Models.NavigationModel.Link() { Text = "Contact Us", Url = Url.Action("Contact") });
-				menu.Links.Add(new Models.NavigationModel.Link() { Text = "Team Members", Url = Url.Action("Staff") });
+				menu.Links.Add(new Models.NavigationModel.Link() { Text = "Leadership", Url = Url.Action("Staff") });
 				//menu.Links.Add(new NavigationModel.Link() {Text=""});
 				ViewBag.NavMenu = menu;
 				ViewBag.GetLayout = new Func<string>(() =>
