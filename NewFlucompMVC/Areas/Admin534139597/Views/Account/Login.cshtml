@@ -1,0 +1,16 @@
+﻿@model NewFlucompMVC.Areas.Admin534139597.Models.LoginModel
+@{
+    ViewBag.Title = "Login to Admin Panel";
+}
+<div id="loginFrm">
+    @using (Html.BeginForm())
+    { 
+        @Html.LabelFor(m=>m.Username)
+        @Html.TextBoxFor(m=>m.Username)
+        @Html.ValidationMessageFor(m=>m.Username)
+        @Html.LabelFor(m=>m.Password)
+        @Html.PasswordFor(m=>m.Password)
+        <input type="submit" value="Login" />
+        @Html.ValidationSummary()
+    }
+</div>

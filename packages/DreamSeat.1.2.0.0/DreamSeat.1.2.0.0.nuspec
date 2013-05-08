@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DreamSeat</id>
+    <version>1.2.0.0</version>
+    <title>DreamSeat</title>
+    <authors>Vincent Daron</authors>
+    <owners>Vincent Daron</owners>
+    <licenseUrl>https://github.com/vdaron/DreamSeat/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/vdaron/DreamSeat</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DreamSeat is a CouchDB client for the .NET plateform. The library is based on Mindtouch Dream to allow synchronous and asynchroous calls</description>
+    <releaseNotes>First nuget package.</releaseNotes>
+    <copyright>Copyright � Martin Murphy - Vincent Daron 2010-2012</copyright>
+    <language />
+    <tags>Apache CouchDb Dream Mindtouch Asynchronous</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.5.7" />
+    </dependencies>
+  </metadata>
+</package>

@@ -52,3 +52,9 @@ C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\System.Web.WebPage
 C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\obj\Debug\Flucomp.Site.csprojResolveAssemblyReference.cache
 C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\obj\Debug\NewFlucompMVC.dll
 C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\obj\Debug\NewFlucompMVC.pdb
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\Autofac.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\DreamSeat.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\log4net.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\mindtouch.dream.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\Newtonsoft.Json.dll
+C:\Users\Vince\Documents\GitHub\FlucompSite\NewFlucompMVC\bin\Newtonsoft.Json.xml

@@ -44,8 +44,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\DreamSeat.1.2.0.0\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="DreamSeat">
+      <HintPath>..\packages\DreamSeat.1.2.0.0\lib\net40\DreamSeat.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\DreamSeat.1.2.0.0\lib\net40\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
+    </Reference>
+    <Reference Include="mindtouch.dream">
+      <HintPath>..\packages\DreamSeat.1.2.0.0\lib\net40\mindtouch.dream.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -106,10 +121,17 @@
     <Compile Include="App_Data\content.cs">
       <DependentUpon>content.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Areas\Admin534139597\Admin534139597AreaRegistration.cs" />
+    <Compile Include="Areas\Admin534139597\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Admin534139597\Controllers\DashController.cs" />
+    <Compile Include="Areas\Admin534139597\Models\DashboardModel.cs" />
+    <Compile Include="Areas\Admin534139597\Models\SidebarModel.cs" />
+    <Compile Include="Areas\Admin534139597\Models\UserModel.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UtilityController.cs" />
+    <Compile Include="Databasing.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -253,6 +275,12 @@
     <None Include="App_Data\content.xss">
       <DependentUpon>content.xsd</DependentUpon>
     </None>
+    <Content Include="Areas\Admin534139597\Views\Web.config" />
+    <Content Include="Areas\Admin534139597\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin534139597\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin534139597\Views\Dash\Index.cshtml" />
+    <Content Include="Areas\Admin534139597\Views\Shared\Sidebar.cshtml" />
+    <Content Include="Areas\Admin534139597\Views\Account\Login.cshtml" />
     <None Include="Properties\PublishProfiles\Default Settings %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Default Settings %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
